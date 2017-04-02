@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'ClassicaOne';
+    src: local('Classica One'), local('ClassicaOne'), url('../fonts/classicaone.woff2') format('woff2'), url('../fonts/classicaone.woff') format('woff'), url('../fonts/classicaone.ttf') format('truetype');
+
+}
+@font-face {
+    font-family: 'PFDinTextCondPro-Light';
+    src: local('PFDinTextCondPro-Light'), local('PFDinTextCondPro-Light'), url('../fonts/PFDinTextCondPro-Light.ttf') format('ttf'), url('../fonts/PFDinTextCondPro-Light.ttf') format('ttf'), url('../fonts/PFDinTextCondPro-Light.ttf') format('truetype');
+
+}
+@font-face {
+    font-family: 'Sunday-Regular';
+    src: local('Sunday-Regular'), local('Sunday-Regulare'), url('../fonts/Sunday-Regular.ttf') format('ttf'), url('../fonts/Sunday-Regular.ttf') format('ttf'), url('../fonts/Sunday-Regular.ttf') format('truetype');
+
+}

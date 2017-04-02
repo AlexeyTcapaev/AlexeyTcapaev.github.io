@@ -1,0 +1,589 @@
+* {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+body
+{
+    height: 5000px;
+    
+}
+.tellink
+{
+    width: 30%;
+    
+}
+nav
+{
+  display: block;
+
+  width: 100%; 
+  z-index: 3;
+  background-color: white;
+    
+}
+.closemodal
+{
+    margin-top: 2%;
+    display: flex; 
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 100%;
+    height: 10%;
+   
+}
+.closebutton
+{
+    display: table;
+    width: 50px;
+    height: 50px;
+    max-width: 50px;
+    margin-right: 1em;
+     background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    -moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	border-radius: 20px;
+    background-image: url(../img-main/recallnohover.svg);
+}
+
+.closebutton:hover
+{
+    background-image: url(../img-main/recallhover.svg);
+}
+.modalbox
+{
+    position: fixed;
+    display: none;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+.modaltext
+{
+    
+    margin-top: 2%;
+    text-align: center;
+    color: black;
+    font-size: 2em;
+}
+.box
+{
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 5%;
+    border-radius: 10px;
+    width: 80%;
+    height: 80%;
+    background-color: white;
+}
+ul
+{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-flow: row;
+  margin: 0 auto;
+  padding-left: 0;
+  list-style: none;
+  padding-bottom: 1%;
+}
+.logo1
+{
+    display: block;
+    margin: auto;
+}
+@media (max-width: 850px) 
+{
+      ul {
+        display: none;
+        
+      }
+      
+}
+.topnav
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.recall
+{
+    background-image: url(../img-main/recallnohover.svg);
+}
+.recall:hover
+{
+    background-image: url(../img-main/recallhover.svg);
+}
+.vk
+{
+     background-image: url(../img-main/vknohover.svg);
+    transition: 0.3s;
+  
+}
+.vk:hover
+{
+    
+    background-image: url(../img-main/vkhover.svg);
+}
+.youtube
+{
+    background-image: url(../img-main/youtubenohover.svg); 
+  transition: 0.3s;
+}
+.youtube:hover
+{
+    
+    background-image: url(../img-main/youtubehover.svg);
+}
+.instagram
+{
+   background-image: url(../img-main/instagramnohover.svg);
+  transition: 0.3s;
+}
+.instagram:hover
+{
+    
+     background-image: url(../img-main/instagramhover.svg); 
+}
+.facebook
+{
+   background-image: url(../img-main/facebooknohover.svg);
+  transition: 0.3s;
+}
+.facebook:hover
+{
+    
+    background-image: url(../img-main/facebookhover.svg);
+}
+.sociallink div 
+{
+    display: table;
+    width: 50px;
+    height: 50px;
+    max-width: 50px;
+    margin-right: 1em;
+     background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    -moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	border-radius: 20px;
+}
+.sociallink
+{
+     display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-right: 4em;
+}
+.linkmenu
+{
+ font-family: 'Poiret One', cursive;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  color: black;
+  padding: 0.5em 0;
+  font-size: 2em;
+  transition: 0.5s ease-in-out;
+}
+.phone
+{
+ font-family: 'Poiret One', cursive;
+  text-decoration: none;
+  padding-top: 1em;
+    text-align: center;
+  display: block;
+  color: black;
+  font-size: 2em;
+  transition: 0.5s ease-in-out;
+}
+.tellink
+{
+    display: flex;
+    flex-direction: column;
+}
+h2
+{
+ font-family: 'Poiret One', cursive;
+    font-weight:inherit;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  color: black;
+  padding-top: 1%;
+  font-size: 4em;   
+  transition: 0.5s ease-in-out;
+}
+h3
+{
+ font-family: 'Poiret One', cursive;
+    font-weight:inherit;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  color: white;
+  padding: 2em 0;
+  font-size: 2.3em;
+  background-image: url(../img-main/panoramafon.png);    
+  transition: 0.5s ease-in-out;
+}
+.carousel
+{
+    background-image: url(../img-main/271.jpg);
+    height: 18%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  
+}
+p
+{
+    font-family: 'Poiret One', cursive;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  color: gray;
+  font-size: 1.4em;
+  transition: 0.5s ease-in-out;
+     
+}
+li
+{
+     text-align: center;
+     transition: 0.5s ease-in-out;
+     width: 100%;
+}
+li:hover .line
+{
+  background-color: black;
+   
+}
+ .menulink {
+      font-family: 'Poiret One', cursive;
+      text-decoration: none;
+      text-align: center;
+      display: block;
+      color: black;
+      padding: 0.5em 0;
+      font-size: 2em;
+      transition: 0.5s ease-in-out;
+    }
+.button 
+{
+      /*ВАЖНО*/
+    
+      position: relative;
+      /* ---- */
+    }
+    
+    .button .list {
+      display: block;
+      line-height: 25px;
+      background: white;
+      border-bottom: 4px solid white;
+      /*ВАЖНО*/
+      position: absolute;
+      width: 100%;
+      height: 0;
+      overflow: hidden;
+      transition: height 0.5s, border-bottom 0.5s;
+      /* ---- */
+    }
+    
+    .button:hover>.list {
+      height: 170px;
+      border-bottom: 4px solid black;
+    }
+    
+    .list li {
+      transition: background 0.5s;
+    }
+    
+    .list li:hover {
+      background-color: #efefef;
+    }
+.line
+{
+    height: 6%;
+    background-color: white;
+    transition: 0.5s ease-in-out;
+}
+h1
+{
+    position: relative;
+    font-size: 4.5em;
+    margin: 0;
+    top:20%;
+    text-align: center;
+    color: #2c201d; 
+    font-family: 'ClassicaOne';
+    cursor:default;
+    transition: 0.3s;
+}   
+.wrapper 
+{
+        display: inline-block;  
+        position: relative;
+    
+}   
+.content
+{
+        position: absolute;
+        top: 0;
+        display: block;
+        z-index: 1;
+        height: 0;
+        width: 180px;
+        padding-top: 30px;
+        -webkit-transition: height .5s ease;
+        -webkit-transition-delay: .4s;
+       
+    }
+    
+.wrapper:hover .content 
+{
+        height: 123px;
+        z-index: 3;
+        -webkit-transition-delay: 0s;
+ }
+.content:hover
+{
+        height: 123px;
+        z-index: 3;
+        -webkit-transition-delay: 0s;
+ }
+    
+    
+.content ul
+{
+       
+        margin-top:20%;
+        padding: 0;
+        overflow: hidden;
+        height: 100%;
+        display: flex;
+        justify-content:center;
+        flex-flow: column;
+    }
+    
+.content ul a 
+{
+        text-decoration: none;
+         background-color: white;
+        z-index: 100;
+}
+    
+.content li:hover
+{
+        color: #333;
+       
+}  
+.content li 
+{
+        list-style: none;
+        text-align: center;
+        font-size: 0.7em;
+      
+}
+.ablock
+{
+    width: 100%;
+    height: 13%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.ulbox
+{
+    
+  width: 100%;
+  height: 100%;    
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-flow: row;
+  margin: 0 auto;
+  padding-left: 0;
+  list-style: none;
+}
+.inf
+{
+    display: flex;
+    text-align: center;
+    
+    height: 80%;
+    padding: 2%;
+    width: 20%;
+
+}
+.inf:hover
+{-webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);}
+.obj
+{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+.obj:hover .obj_img
+{
+   background-image: none;
+}
+.obj:hover .video_bg_obj
+{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+}
+.obj_img
+{
+    display: flex;
+    height: 60%;
+    transition: 0.2s ease-in-out;
+     background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../lanch.JPG);
+
+}
+.obj_text
+{
+    display: flex;
+    height: 40%;
+    font-size: 1.2em;
+    color: black;
+    
+}
+.moredata
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 2%;
+}
+h4
+{
+ font-family: 'Poiret One', cursive;
+    font-weight:inherit;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  color: black;
+  font-size: 2em; 
+  transition: 0.5s ease-in-out;
+  padding-bottom: 5%;
+    
+}
+h6
+{
+ font-family: 'Poiret One', cursive;
+    
+  display: block;
+  color: black;
+  font-size: 2em; 
+  transition: 0.5s ease-in-out;
+}
+.data
+{
+    text-align: left;
+    font-size: 1.3em;
+}
+.video_bg_obj
+{ 
+    transition: 0.2s ease-in-out;
+    display: none;
+    height: 100%;
+    width: 100%;
+    opacity:0;
+}
+
+
+.mlink
+{
+     margin-left: 6em;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    width: 9%;
+     text-align: center;
+    justify-content:center; 
+    
+}
+.line1
+{
+    background-color: white;
+     height: 2px;
+}
+.mlink:hover .line1
+{
+    background-color: black;
+   
+}
+.commlikeul
+{
+    width: 100%;
+    height: 20%;
+    display: flex; 
+}
+.commlikeul li
+{
+     display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center
+}
+.likes
+{
+    width: 40px;
+    height: 40px;
+    max-width: 40px;
+    margin-right: 1em;
+     background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../img-main/heart.svg);
+}
+.comments
+{
+    width: 40px;
+    height: 40px;
+    max-width: 40px;
+    margin-right: 1em;
+     background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../img-main/chat1.svg);
+}
+.comments:hover
+{
+    background-image: url(../img-main/chat.svg);
+}
+.likes:hover
+{
+    background-image: url(../img-main/heart1.svg);
+}
+.likescount
+{
+    display: flex;
+    justify-content: center;
+    font-size: 1em;
+}
+.commetcount
+{
+     display: flex;
+    justify-content: center;
+    font-size: 1em;
+}
+  

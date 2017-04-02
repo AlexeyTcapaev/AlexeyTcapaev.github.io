@@ -1,0 +1,306 @@
+
+body
+{
+    height: 3000px;
+}
+.tellink
+{
+    width: 30%;
+    
+}
+nav
+{
+  display: block;
+
+  width: 100%; 
+  z-index: 3;
+  background-color: white;
+    
+}
+ul
+{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-flow: row;
+  margin: 0 auto;
+  padding-left: 0;
+  list-style: none;
+}
+.logo1
+{
+    display: block;
+    margin: auto;
+}
+@media (max-width: 850px) 
+{
+      ul {
+        display: none;
+        
+      }
+      
+}
+.topnav
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.vk
+{
+     background-image: url(../img-main/vk.svg);
+    transition: 0.3s;
+  
+}
+.vk:hover
+{
+    
+    background-image: url(../img-main/vk-social-logotype.svg);
+}
+.youtube
+{
+    background-image: url(../img-main/youtube.svg); 
+  transition: 0.3s;
+}
+.youtube:hover
+{
+    
+    background-image: url(../img-main/youtube-symbol.svg);
+}
+.instagram
+{
+   background-image: url(../img-main/instagram.svg);
+  transition: 0.3s;
+}
+.instagram:hover
+{
+    
+     background-image: url(../img-main/instagram-logo.svg); 
+}
+.facebook
+{
+   background-image: url(../img-main/social-facebook-circular-button.svg);
+  transition: 0.3s;
+}
+.facebook:hover
+{
+    
+    background-image: url(../img-main/facebook-logo-button.svg);
+}
+.sociallink div 
+{
+    display: table;
+    width: 40px;
+    height: 40px;
+    max-width: 40px;
+    margin-right: 1em;
+     background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    -moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	border-radius: 20px;
+}
+.sociallink
+{
+     display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-right: 4em;
+}
+.linkmenu
+{
+ font-family: 'Poiret One', cursive;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  color: black;
+  padding: 0.5em 0;
+  font-size: 2em;
+  transition: 0.5s ease-in-out;
+}
+.phone
+{
+ font-family: 'Poiret One', cursive;
+  text-decoration: none;
+  padding-top: 1em;
+    text-align: center;
+  display: block;
+  color: black;
+  font-size: 2em;
+  transition: 0.5s ease-in-out;
+}
+.tellink
+{
+    display: flex;
+    flex-direction: column;
+}
+h2
+{
+ font-family: 'Poiret One', cursive;
+    font-weight:inherit;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  color: black;
+  padding: 2em 0;
+  font-size: 2.3em;   
+  transition: 0.5s ease-in-out;
+}
+h3
+{
+ font-family: 'Poiret One', cursive;
+    font-weight:inherit;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  color: white;
+  padding: 2em 0;
+  font-size: 2.3em;
+  background-image: url(../img-main/panoramafon.png);    
+  transition: 0.5s ease-in-out;
+}
+.carousel
+{
+    background-image: url(../img-main/271.jpg);
+    height: 30%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  
+}
+p
+{
+    font-family: 'Poiret One', cursive;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  color: gray;
+  font-size: 1.4em;
+  transition: 0.5s ease-in-out;
+     
+}
+li
+{
+     text-align: center;
+     transition: 0.5s ease-in-out;
+    
+    
+   
+    
+}
+li:hover .line
+{
+  background-color: black;
+   
+}
+.line
+{
+    height: 6%;
+    background-color: white;
+    transition: 0.5s ease-in-out;
+}
+h1
+{
+    position: relative;
+    font-size: 4.5em;
+    margin: 0;
+    top:20%;
+    text-align: center;
+    color: #2c201d; 
+    font-family: 'ClassicaOne';
+    cursor:default;
+    transition: 0.3s;
+}   
+.wrapper 
+{
+        display: inline-block;  
+        position: relative;
+    
+}   
+.content
+{
+        position: absolute;
+        top: 0;
+        display: block;
+        z-index: 1;
+        height: 0;
+        width: 180px;
+        padding-top: 30px;
+        -webkit-transition: height .5s ease;
+        -webkit-transition-delay: .4s;
+       
+    }
+    
+.wrapper:hover .content 
+{
+        height: 123px;
+        z-index: 3;
+        -webkit-transition-delay: 0s;
+ }
+.content:hover
+{
+        height: 123px;
+        z-index: 3;
+        -webkit-transition-delay: 0s;
+ }
+    
+    
+.content ul
+{
+       
+        margin-top:20%;
+        padding: 0;
+        overflow: hidden;
+        height: 100%;
+        display: flex;
+        justify-content:center;
+        flex-flow: column;
+    }
+    
+.content ul a 
+{
+        text-decoration: none;
+         background-color: white;
+        z-index: 100;
+}
+    
+.content li:hover
+{
+        color: #333;
+       
+}  
+.content li 
+{
+        list-style: none;
+        text-align: center;
+        font-size: 0.7em;
+      
+}
+.ablock
+{
+    width: 100%;
+    height: 20%;
+}
+.ulbox
+{
+    
+  width: 100%;
+  height: 100%;    
+  display: flex;
+  justify-content: space-around;
+  flex-flow: row;
+  margin: 0 auto;
+  padding-left: 0;
+  list-style: none;
+}
+.inf
+{
+    text-align: center;
+     transition: 0.5s ease-in-out;
+    height: 100%;
+}
+    
+  
