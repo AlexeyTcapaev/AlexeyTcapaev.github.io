@@ -5,6 +5,21 @@ $(function()
         document.getElementById('modalbox').style.display="flex";
 
     });
+     $('.count_news').click(function()
+    {
+        
+         
+         
+                    //Записываем ссылку на элемент в переменную obj
+                    var obj = document.getElementById("comment_bubble"); 
+                    //Если css-свойство display не block, то: 
+                    if (obj.style.display != "block") { 
+                       $("#comment_bubble").fadeIn(200); //Показываем элемент
+                    }
+                    else $("#comment_bubble").fadeOut(200); //Скрываем элемент
+                
+
+    });
     
     $('.closebutton').click(function()
     {
@@ -214,5 +229,9 @@ $(document).ready(function(){
 });
 
   $(document).ready(function(){
-    $(".headnav").sticky({topSpacing:0});
+    $(".headnav").sticky({
+        topSpacing:0
+    });
+       document.getElementById('comment_bubble').style.top="110%"; 
+      document.getElementById('comment_bubble').style.left="43.5%"; 
   });
