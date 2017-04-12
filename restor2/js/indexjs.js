@@ -229,9 +229,9 @@ $(document).ready(function(){
 });
 
   $(document).ready(function(){
+      
     $(".headnav").sticky({
         topSpacing:0
     });
-       document.getElementById('comment_bubble').style.top="110%"; 
-      document.getElementById('comment_bubble').style.left="43.5%"; 
+      
   });

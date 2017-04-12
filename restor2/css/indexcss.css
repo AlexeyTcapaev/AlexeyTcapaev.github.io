@@ -291,9 +291,10 @@ h5
 #comment_bubble {
    display: none;
    top:50%;
+    right:37%;
     width: 440px;
     height: 200px;
-    background: red;
+    background: black;
     position: absolute;
     -moz-border-radius: 12px;
     -webkit-border-radius: 12px;

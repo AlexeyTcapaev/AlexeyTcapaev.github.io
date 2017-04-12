@@ -8,10 +8,14 @@ var isAdded = false;
 window.addEventListener('scroll', function() {
     if (window.pageYOffset >= menuPosition.top && !isAdded) {
         menu.classList.add('sticky');
+         document.getElementById('comment_bubble').style.top="190%"; 
+      document.getElementById('comment_bubble').style.right="32%"; 
         menu.parentNode.insertBefore(placeholder, menu);
         isAdded = true;
     } else if (window.pageYOffset < menuPosition.top && isAdded) {
         menu.classList.remove('sticky');
+         document.getElementById('comment_bubble').style.marginTop="50%"; 
+      document.getElementById('comment_bubble').style.right="37%"; 
         menu.parentNode.removeChild(placeholder);
         isAdded = false;
     }
