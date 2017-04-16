@@ -13,8 +13,9 @@ $(function()
                     //Записываем ссылку на элемент в переменную obj
                     var obj = document.getElementById("comment_bubble"); 
                     //Если css-свойство display не block, то: 
-                    if (obj.style.display != "block") { 
-                       $("#comment_bubble").fadeIn(200); //Показываем элемент
+                    if (obj.style.display != "flex") { 
+                       $("#comment_bubble").fadeIn(200); 
+                        obj.style.display="flex"; //Показываем элемент
                     }
                     else $("#comment_bubble").fadeOut(200); //Скрываем элемент
                 

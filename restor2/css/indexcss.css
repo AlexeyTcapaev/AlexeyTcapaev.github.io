@@ -285,15 +285,22 @@ h5
 .comment_bubble_p
 {
     color:white;
-    padding: 2%;
-    width: 100%;
+   padding-top: 2%;
+    width: 90%;
+    
+}
+.wrapper_comment_bubble
+{
+    position: relative;
+    width: 40px;
+    
 }
 #comment_bubble {
-   display: none;
-   top:52%;
-    right:37%;
-    width: 440px;
-    height: 200px;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    margin-top: 5%;
+    margin-left: -6%;
     background: black;
     position: absolute;
     -moz-border-radius: 12px;
@@ -333,6 +340,30 @@ h5
     align-items: center;
     border-radius: 15px;
     background-color: red;
+}
+.phone1
+{
+    font-family: 'Poiret One', cursive;
+  text-decoration: none;
+    text-align: center;
+  display: flex;
+    flex-direction: row;
+    position: absolute;
+    margin-left: 2%;
+    margin-top: 2%;
+    float: left;
+    width: 22%;
+  color: black;
+  font-size: 2.5em;
+  transition: 0.5s ease-in-out;
+}
+.icon_call
+{
+    width: 40px;
+    height: 40px;
+    background-image: url(../img-main/logo/old-typical-phone.svg);
+    padding-right: 4%;
+    background-repeat: no-repeat;
 }
 .count_news:hover
 {
