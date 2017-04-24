@@ -12,6 +12,14 @@ body
     width: 30%;
     
 }
+#p1l 
+{
+  user-select: none;   
+}
+.search_info ul li p
+{
+  user-select: none;   
+}
 nav
 {
   display: flex;
@@ -181,6 +189,10 @@ nav
     background-size:contain;
     background-repeat: no-repeat;
 }
+#alert
+{
+    display: none;
+}
 .Item_img
 {
     width: 50%;
@@ -219,7 +231,7 @@ box-shadow: 0px 0px 21px -2px rgba(0,0,0,0.75);
 }
 .check1
 {
-      background-image: url(../img-main/logo/radio-off-button.svg);
+      background-image: url(../img-main/logo/radio-on-button.svg);
   transition: 0.3s;
     margin-right: 10%;
     width: 20px;
