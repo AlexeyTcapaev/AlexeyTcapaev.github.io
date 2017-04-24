@@ -1,6 +1,6 @@
 $(document).ready(function(){
    var i,l;   
-    console.log(document.getElementById('img_mass').childNodes);
+    
 $('.alboums').slick({
   infinite: true,
    dots:true,
