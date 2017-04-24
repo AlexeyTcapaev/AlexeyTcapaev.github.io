@@ -1,7 +1,6 @@
 $(document).ready(function()
 {
-  var log_off=$.preload("../img-main/logo/radio-on-button.svg");
-    console.log(log_off);
+ 
     var i=1;
      var j=0;
      var k=0;
