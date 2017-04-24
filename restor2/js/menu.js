@@ -1,4 +1,4 @@
-$(function()
+$(document).ready(function()
 {
   var log_off=$.preload("../img-main/logo/radio-on-button.svg");
     console.log(log_off);
