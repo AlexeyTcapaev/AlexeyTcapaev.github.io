@@ -36,9 +36,9 @@ $(document).ready(function()
          j++;
         
          if((j%2)==1)
-                 document.getElementById("select2").style.backgroundImage="url(../img-main/logo/radio-on-button.svg)";
+                 document.getElementById("select2").style.backgroundImage="url(restor2/img-main/logo/radio-on-button.svg)";
           if((j%2)==0)
-              document.getElementById("select2").style.backgroundImage="url(../img-main/logo/radio-off-button.svg)";
+              document.getElementById("select2").style.backgroundImage="url(restor2/img-main/logo/radio-off-button.svg)";
     });
     $('#p3l').click(function()
     {    
