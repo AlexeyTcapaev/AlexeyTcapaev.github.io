@@ -113,7 +113,10 @@
     {
         height: 15%;
     }
-
+    body
+    {
+        height: 3550px;
+    }
     }
 @media (max-width: 850px) 
 {
