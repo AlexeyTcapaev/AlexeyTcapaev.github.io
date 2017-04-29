@@ -16,15 +16,6 @@
     background-repeat: no-repeat;
     height: 9%;  
     }
-    .box
-    {
-         height: 87%;
-    }
-    .sendbutton
-    {
-        margin-top: 2%;
-       
-    }
     .nav_select li
     {
     height: 10px;
@@ -34,6 +25,24 @@
     .yandexmaps
     {
         height: 15%;
+    }
+    .search_info ul li p
+    {
+        font-size: 1.2em;
+        font-weight: bold;
+    }
+    .comment_bubble_p
+    {
+        padding-bottom: 3%;
+    }
+    .close_info
+    {
+        margin-bottom: 2%;
+    }
+    .item_container
+    {
+        margin-bottom: 2%;
+        height: 30%;
     }
     .closebutton
     {
@@ -51,7 +60,7 @@
     }
     .line
     {
-        height: 3%;
+        height: 3px;
     }
     .headnav
     {

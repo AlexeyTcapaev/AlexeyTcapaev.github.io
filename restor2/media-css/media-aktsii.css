@@ -7,23 +7,14 @@
     }
     #overtext
     {
-        font-size: 1.21em;
+        font-size: 1.30em;
     }
     nav
     {
           background-image: url(../img-main/new_nav_logo.jpg);
     background-size:cover;
     background-repeat: no-repeat;
-    height: 9%;  
-    }
-    .box
-    {
-         height: 87%;
-    }
-    .sendbutton
-    {
-        margin-top: 2%;
-       
+    height: 20.9%;  
     }
     .nav_select li
     {
@@ -114,23 +105,38 @@
     {
          margin-top: 6%;
     }
+    .overlayphoto
+    {
+        height: 100%;
+    }
+    .sitemap
+    {
+        height: 57%;
+    }
     .info_rest
     {
         font-size: 0.8em;
         font-weight: bold;
     }
+    .bottommore
+    {
+        margin-bottom: 5%;
+    }
     .second_content
     {
-        height: 15%;
+        height: 30%;
+    }
+    .logo_container_bottom
+    {
+        margin-top: 4%;
+        margin-bottom: 2%;
     }
     body
     {
-        height: 3550px;
+        height: 1750px;
     }
-    .text_container
-    {
-        padding-top: 1%;
-    }
+    p
+    {}
     }
 @media (max-width: 850px) 
 {

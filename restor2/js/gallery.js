@@ -49,6 +49,6 @@ $('.alboums').slick({
    document.getElementById('alboum_name').innerHTML=this.lastChild.innerText;
            
     });  
-     
+    
     
     });

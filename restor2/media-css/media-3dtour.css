@@ -18,12 +18,11 @@
     }
     .box
     {
-         height: 87%;
+         height: 86%;
     }
     .sendbutton
     {
-        margin-top: 2%;
-       
+        padding-bottom: 2%;
     }
     .nav_select li
     {
@@ -62,6 +61,10 @@
          width: 20px;
         height: 20px;
     }
+    .centr_cont
+    {
+        margin-bottom: 15%;
+    }
     .headnav
     {
         padding-bottom: 0;
@@ -84,7 +87,7 @@
     }
     .button:hover>.list 
     {
-        height: 185px;
+        height: 180px;
     }
     .logo_1
     {

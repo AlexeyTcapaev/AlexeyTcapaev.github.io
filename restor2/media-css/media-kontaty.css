@@ -16,14 +16,17 @@
     background-repeat: no-repeat;
     height: 9%;  
     }
+    .cont_list
+    {
+        height: 90%;
+    }
     .box
     {
-         height: 87%;
+         height: 86%;
     }
     .sendbutton
     {
-        margin-top: 2%;
-       
+        padding-bottom: 2%;
     }
     .nav_select li
     {

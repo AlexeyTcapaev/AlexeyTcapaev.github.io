@@ -16,15 +16,6 @@
     background-repeat: no-repeat;
     height: 9%;  
     }
-    .box
-    {
-         height: 87%;
-    }
-    .sendbutton
-    {
-        margin-top: 2%;
-       
-    }
     .nav_select li
     {
     height: 10px;
@@ -35,11 +26,16 @@
     {
         height: 15%;
     }
+    #curr_val_and_date
+    {
+        font-size: 1.2em;
+        height: 100%;
+    }
+
     .closebutton
     {
-    width: 30px;
-    height: 30px;
-    margin-top: 5%; 
+            width: 30px;
+            height: 30px;
     }
     .inputinf 
     {
@@ -51,7 +47,7 @@
     }
     .line
     {
-        height: 3%;
+        height: 3px;
     }
     .headnav
     {
