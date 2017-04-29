@@ -1,0 +1,125 @@
+@media screen and (max-width: 1366px) 
+{
+    .menulink,.linkmenu
+    {
+        font-size: 1.30em;
+    }
+    #overtext
+    {
+        font-size: 1.21em;
+    }
+    nav
+    {
+          background-image: url(../img-main/new_nav_logo.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 9%;  
+    }
+    .nav_select li
+    {
+    height: 10px;
+    width: 10px;
+    border-radius: 25px;
+    }
+    .yandexmaps
+    {
+        height: 15%;
+    }
+    .closebutton
+    {
+    width: 30px;
+    height: 30px;
+    margin-top: 5%; 
+    }
+    .inputinf 
+    {
+        height: 7%;
+    }
+    .inputinf1 
+    {
+        height: 35%;
+    }
+    .line
+    {
+        height: 3%;
+    }
+    .headnav
+    {
+      height: 70px;
+    }
+    .count_news
+    {
+         width: 20px;
+        height: 20px;
+    }
+    .headnav
+    {
+        padding-bottom: 0;
+    }
+    .count_news p
+    {
+        font-size: 1.2em;
+    }
+    .phone1
+    {
+        font-size: 1.7em;
+    }
+    h2
+    {
+            padding-top: 0;
+    }
+    .carousel
+    {
+        height: 11%;
+    }
+    .button:hover>.list 
+    {
+        height: 185px;
+    }
+    .logo_1
+    {
+        width: 25%; 
+    }
+    .logo_2
+    {
+        width: 25%; 
+    }
+    .logo_3
+    {
+        width: 25%;  
+    }
+    .logo_1_bottom
+    {
+        width: 25%; 
+    }
+    .logo_2_bottom
+    {
+        width: 25%; 
+    }
+    .logo_3_bottom
+    {
+        width: 25%;  
+    }
+    #comment_bubble
+    {
+         margin-top: 6%;
+    }
+    .info_rest
+    {
+        font-size: 0.8em;
+        font-weight: bold;
+    }
+    .second_content
+    {
+        height: 15%;
+    }
+
+    }
+@media (max-width: 850px) 
+{
+       .headnav {
+        flex-direction: column;
+        
+      }
+      
+}
