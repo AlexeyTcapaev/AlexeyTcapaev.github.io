@@ -6,13 +6,45 @@
         <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Poiret+One" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/window.css">
         <link rel="stylesheet" type="text/css" href="css/fonts.css">
+         <link rel="stylesheet" type="text/css" href="media-css/media-window.css">
          <link rel="stylesheet" type="text/css" href="slick/slick.css">
         <link rel="stylesheet" type="text/css" href="slick/slick-theme.css">
-        <script src="http://code.jquery.com/jquery-1.8.3.js"></script>
+        <script
+  src="https://code.jquery.com/jquery-1.8.3.min.js"
+  integrity="sha256-YcbK69I5IXQftf/mYD8WY0/KmEDCv1asggHpJk1trM8="
+  crossorigin="anonymous"></script>
         <script type="text/javascript" src="js/window.js"></script>
-         <script type="text/javascript" src="js/indexjs.js"></script>
         <script type="text/javascript" src="slick/slick.min.js"></script>
         <script type="text/javascript" src="js/jquery.sticky.js"></script>
+        <!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+    (function (d, w, c) {
+        (w[c] = w[c] || []).push(function() {
+            try {
+                w.yaCounter44488048 = new Ya.Metrika({
+                    id:44488048,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true,
+                    webvisor:true,
+                    trackHash:true
+                });
+            } catch(e) { }
+        });
+
+        var n = d.getElementsByTagName("script")[0],
+            s = d.createElement("script"),
+            f = function () { n.parentNode.insertBefore(s, n); };
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+        if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f, false);
+        } else { f(); }
+    })(document, window, "yandex_metrika_callbacks");
+</script>
+<!-- /Yandex.Metrika counter -->
 		<title>
 			Ресторан Я Люблю
 		</title>
@@ -36,63 +68,29 @@
                 
             </div>
         </div>
-         <div class="modalbox1" id="modalbox1">
-                    <div class="box1">
-                        <div class="closemodal1"><a class="closebutton1"></a></div>
-                        <div class="obj1">
-                            <h4 class="modalh4">Заголовок</h4>
-                            
-                                <ul class="headtext">
-                                   <li> <p class="data">дата</p></li>
-                                  <li> <p class="data">Событие уже прошло</p></li> 
-                             </ul>
-                            <div class="galerry">
-                            <div class="videocontainer"><iframe class="youtubeins"  src="https://www.youtube.com/embed/e5kVEmvZy7k" frameborder="0" allowfullscreen>
-                            </iframe></div>
-                                <div class="columnlist">
-                                    <div class="buttonup"></div>
-                                    <ul class="photolist">
-                                        
-                                        <li><div class="listobj"></div></li>
-                                        <li><div class="listobj"></div></li>
-                                        <li><div class="listobj"></div></li>
-                                        
-                                    </ul>
-                                    <div class="buttondown"></div>
-                                </div>
-                                </div>
-                                
-                            <p class="obj_text1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eget ligula vitae felis volutpat scelerisque quis ut ligula. Nam rhoncus malesuada tempor. Fusce pharetra gravida nunc, at ornare dui porttitor in. 
-                
-                            </p>
-                            <ul class="commlikeul1">
-                                <li><div class="likes"></div><p class="likescount">123</p>
-                                </li>
-                                
-                                <li><div class="comments"></div><p class="commetcount">123</p>
-                                </li>
-                            </ul>
-                        </div>
-                        
-             </div>
-                </div>
+         
       
             
             <nav>
+                <a class="phone1"><div class="icon_call"></div>+7-812-925-84-95<br></a>
                 <div class="logo_container"> 
                  
                 <div class="logo_1"><img src="img-main/logo/logo-ilove.svg"></div>
                 <div class="logo_2"><img src="img-main/logo/heart-shape-outline_318-32549.svg"></div>
                 <div class="logo_3"><img src="img-main/logo/logo-lapanorama.svg"></div>
-                </div>
-              
+                </div>     
+             
             <ul class="headnav">
-                <li class="logo_com" id="nav_l"><div class="head_logo" id="imgall" ><div class="logo_1_nav"><img src="img-main/logo/logo-ilove.svg"></div>
+                 
+                <li class="logo_com" id="nav_l"><a class="logolink" href="index.html">
+                    
+                    <div class="head_logo" id="imgall" ><div class="logo_1_nav"><img src="img-main/logo/logo-ilove.svg"></div>
                 <div class="logo_1_nav"><img src="img-main/logo/heart-shape-outline_318-32549.svg"></div>
-                <div class="logo_1_nav"><img src="img-main/logo/logo-lapanorama.svg"></div></div></li>
+                <div class="logo_1_nav"><img src="img-main/logo/logo-lapanorama.svg"></div></div></a></li>
+                
                 <li><a href="index.html" class=linkmenu>Главная</a><div class="line"></div></li>
                  <li><a href="aktsii.html" class=linkmenu>Акции</a><div class="line"></div></li>
-                <li><a href="window.html" class=linkmenu>Из нашего окна</a><div class="line"></div></li>
+                <li><a href="window.html" class=linkmenu id="overtext">Из нашего окна</a><div class="line"></div></li>
                 <li class="button"><a href="menu.html" class="menulink">Меню</a>
                 <ul class="list">
                     <li><a href="#" class="menulink">Основное</a></li>
@@ -101,7 +99,11 @@
                     <li><a href="#" class="menulink">Барное</a></li>
                 </ul>
                 </li>
-                <li><a href="news.html" class=linkmenu>Новости</a><div class="line"></div></li>
+                
+                <li class="cn"><div class="count_news"><p>1</p></div><a href="news.html" class=linkmenu>Новости</a><div class="line"></div>
+                <div id="comment_bubble"><p class="comment_bubble_p">Уважаемые посетители!<br>
+                  Предупреждаем вас что наш ресторан будет закрыт<br>
+                  Дата время<br>Приносим извинения за временные неудобства</p></div> </li>
                  <li><a href="otzivi.html" class=linkmenu>Отзывы</a><div class="line"></div></li>
                  <li><a href="gallery.html" class=linkmenu>Галерея</a><div class="line"></div></li>
                  <li><a href="3dtur.html" class=linkmenu>3D Тур</a><div class="line"></div></li>
@@ -109,32 +111,19 @@
             </ul>
                 </nav>
         
-        <h2> Узнай что ты сможешь увидеть из нашего окна </h2>
-        <div class="info_container">
-            <div class="target_list">
-                <ul>
-                    <li class="sobor_target"><p>Исаакиевский собор</p><div class="line1"> </div>
-                    </li>
-                    
-                </ul>
-                <div class="target_info"> 
-                    <p class="target_info_text" id="tit">Построен в 1818—1858 гг. по проекту архитектора Огюста Монферрана; строительство курировал император Николай I, председателем Комиссии о построении собора был Карл Опперман. Творение Монферрана — четвёртый по счёту храм в честь Исаакия Далматского, построенный на этом месте в Санкт-Петербурге. Освящён во имя преподобного Исаакия Далматского, почитаемого Петром I святого, так как император родился в день его памяти — 30 мая по юлианскому календарю. Торжественное освящение 30 мая (11 июня) 1858 года нового кафедрального собора совершил митрополит Новгородский, Санкт-Петербургский, Эстляндский и Финляндский Григорий (Постников).
-
-Зарегистрированная в июне 1991 года церковная община получила возможность совершать в соборе богослужения. Богослужения в Исаакиевском соборе проводятся ежедневно, за исключением среды. </p>
-                </div>
-            </div>
-            <div class="over">
-            <div class="s4" id="s4">
-            </div> 
-            <div class="s3" id="s3">
-            </div> 
-             <div class="s2" id="s2">
-            </div>
-            <div class="s1" id="s1">
-            </div>
-                </div>
-             
+        
+        <div class="window_main">
+            <img id="img_t" src="img-main/window/sobor3.png">
+            <canvas id="img_w"></canvas> 
+            <div id="hex">HEX: <input type="text"></div>
+            <div id="rgb">RGB: <input type="text"></div>
+            <div id="x">x: <input type="text"></div>
+            <div id="y">y: <input type="text"></div>
+            
         </div>
+        
+        
+        
     <div class="footer">
         <div class="overlayphoto"> 
         </div>
@@ -159,10 +148,7 @@
             </div>
         <p></p>
         <div class="sitemap">
-            <script type="text/javascript" src="//vk.com/js/api/openapi.js?142"></script>
 
-<!-- VK Widget -->
-<div id="vk_groups"></div>
             <div class="map">
                 <ul class="map_ul">
                     <li><p>Главная</p>
@@ -185,17 +171,8 @@
                     </li>
                 </ul>
             </div>
-            <div class="footer_text"><p>Панорамный ресторан европейской кухни
-«Я люблю…LA PANORAMA»
+            
 
-Санкт-Петербург, Васильевский остров, 26 линия, дом 15, корп. 2, 15-й этаж, БЦ "Биржа"
-
-+7-812-925-84-95
-
-Для входа в БЦ просим при себе иметь документ, удостоверяющий личность. Надеемся на понимание. Спасибо!</p></div>
-<script type="text/javascript">
-VK.Widgets.Group("vk_groups", {mode: 4, wide: 1, width: "200", height: "200"}, 82085407);
-</script>
         </div>
     </div>
     </body>
