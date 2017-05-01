@@ -33,6 +33,7 @@ $(document).ready(function(){
      $(img1).load(function(){
         
       canvas1.drawImage(img1,0,0);
+       
       
     });
  
@@ -40,19 +41,30 @@ $(document).ready(function(){
    
     $('#img_t').click(function(event){
       // получение координат
-      var x = event.offsetX==undefined?event.layerX:event.offsetX;
+     var x = event.offsetX==undefined?event.layerX:event.offsetX;
       var y = event.offsetY==undefined?event.layerY:event.offsetY;
        $('#x input').val(x);
       $('#y input').val(y);
-      var img_data = canvas.getImageData(x, y, 1, 1).data;
+        console.log(x+"+"+y);
+      var img_data = canvas.getImageData(x,y, 1, 1).data;
+      var img_data1 = canvas1.getImageData(x,y, 1, 1).data;
+       
       var R = img_data[0];
       var G = img_data[1];
       var B = img_data[2];  var rgb = R + ',' + G + ',' + B;
+      var R1 = img_data1[0];
+      var G1 = img_data1[1];
+      var B1 = img_data1[2];  var rgb1 = R1 + ',' + G1 + ',' + B1;
       // конвертируем из RGB в HEX
       var hex = rgbToHex(R,G,B);
+        var hex1 = rgbToHex(R1,G1,B1);
+         console.log("1-"+R+"-"+G+"-"+B);
+        console.log("2-"+R1+"-"+G1+"-"+B1);
       // показываем значения
       $('#rgb input').val(rgb);
       $('#hex input').val('#' + hex);
+         $('#rgb1 input').val(rgb1);
+      $('#hex1 input').val('#' + hex1);
     });
 
    document.getElementById('img_w').onclick = function(e) {

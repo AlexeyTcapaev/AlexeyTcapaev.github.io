@@ -40,6 +40,10 @@ nav
    
   
 }
+#img_t
+{
+    z-index: 10;
+}
 .closemodal
 {
     margin-top: 2%;
