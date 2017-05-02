@@ -12,12 +12,12 @@ $(document).ready(function(){
    
     // создание изображения
     var img = new Image();
-    img.src = 'img-main/window/sobor2.png';
+    img.src = '/restor2/img-main/window/sobor2.png';
        document.getElementById("img_t").width=img.width;
         document.getElementById("img_t").height=img.height;
     console.log(document.getElementById("img_t").width)
       var img1 = new Image();
-        img1.src = 'img-main/window/sobor3.png';
+        img1.src = '/restor2/img-main/window/sobor3.png';
     document.getElementById("img_w").width=img1.width;
         document.getElementById("img_w").height=img1.height;
     
