@@ -37,8 +37,10 @@ $(document).ready(function(){
        
       
     });
- 
- 
+    
+       canvas.drawImage(img,0,0);
+      canvas1.drawImage(img1,0,0);
+
    
     $('#img_t').click(function(event){
       // получение координат
