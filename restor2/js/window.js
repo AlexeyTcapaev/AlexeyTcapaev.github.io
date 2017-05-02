@@ -17,10 +17,22 @@ $(document).ready(function(){
           var_i1.height =  960;
             console.log(var_i1.width);
             console.log(var_i1.height);
-          pic1.src = '/restor2/img-main/window/sobor2.png';
+          pic1.src = '/restor2/img-main/window/sobor3.png';
     pic1.onload = function ()
     {
         ctx1.drawImage(pic1, 0, 0);  
+    }
+     var var_i2 = document.getElementById('img_w'),
+        ctx2     = var_i2.getContext('2d'),
+        pic2     = new Image();
+          var_i2.width = 1900;
+          var_i2.height =  960;
+            console.log(var_i2.width);
+            console.log(var_i2.height);
+          pic2.src = '/restor2/img-main/window/sobor2.png';
+    pic2.onload = function ()
+    {
+        ctx2.drawImage(pic2, 0, 0);  
     }
    /*
    var canvas = document.getElementById('img_w').getContext('2d'); 
@@ -55,7 +67,7 @@ $(document).ready(function(){
      
     }); 
      */
-/*
+
     $('#img_t').click(function(event){
       // получение координат
      var x = event.offsetX==undefined?event.layerX:event.offsetX;
@@ -95,6 +107,6 @@ $(document).ready(function(){
                document.getElementById("info_block").style.display="none";
                 
            }
-    });  */ 
+    });  
 });
     
