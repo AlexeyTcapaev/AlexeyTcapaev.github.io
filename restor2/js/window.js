@@ -13,13 +13,14 @@ $(document).ready(function(){
     // создание изображения
     var img = new Image();
     img.src = '/restor2/img-main/window/sobor2.png';
-       document.getElementById("img_t").width=$("#contain").width();
-        document.getElementById("img_t").height=$("#contain").height();
+        $("#img_t").width(1920);
+       $("#img_t").height(960);
     console.log(document.getElementById("img_t").width)
       var img1 = new Image();
         img1.src = '/restor2/img-main/window/sobor3.png';
-    document.getElementById("img_w").width=$("#contain").width();
-        document.getElementById("img_w").height=$("#contain").height();
+        $("#img_w").width(1920);
+       $("#simg_w").height(960);
+       
     
     console.log("w1-"+document.getElementById("img_t").width);
      console.log("h1-"+document.getElementById("img_t").height);
