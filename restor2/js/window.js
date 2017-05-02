@@ -12,14 +12,14 @@ $(document).ready(function(){
    
     // создание изображения
     var img = new Image();
-    img.src = '/restor2/img-main/window/sobor2.png';
-        $("#img_t").width(1920);
-       $("#img_t").height(960);
-    console.log(document.getElementById("img_t").width)
+    img.src = 'img-main/window/sobor2.png';
+      document.getElementById("img_t").width=img.width;
+        document.getElementById("img_t").height=img.height;
+    console.log(document.getElementById("img_t").width);
       var img1 = new Image();
-        img1.src = '/restor2/img-main/window/sobor3.png';
-        $("#img_w").width(1920);
-       $("#simg_w").height(960);
+        img1.src = 'img-main/window/sobor3.png';
+         document.getElementById("img_w").width=img1.width;
+        document.getElementById("img_w").height=img1.height;
        
     
     console.log("w1-"+document.getElementById("img_t").width);
@@ -37,12 +37,7 @@ $(document).ready(function(){
       canvas1.drawImage(img1,0,0);
        
       
-    });
-    
-       canvas.drawImage(img,0,0);
-      canvas1.drawImage(img1,0,0);
-       
-   
+    }); 
     $('#img_t').click(function(event){
       // получение координат
      var x = event.offsetX==undefined?event.layerX:event.offsetX;
