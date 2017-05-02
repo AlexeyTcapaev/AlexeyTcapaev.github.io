@@ -7,10 +7,6 @@ $(document).ready(function(){
       return "0123456789ABCDEF".charAt((n-n%16)/16)  + "0123456789ABCDEF".charAt(n%16);
     }
    
-    console.log(document.getElementById("img_t").width);
-     console.log(document.getElementById("img_t").height);
-     console.log(document.getElementById("img_w").width);
-     console.log(document.getElementById("img_w").height);
    var canvas = document.getElementById('img_w').getContext('2d'); 
     var canvas1 = document.getElementById('img_t').getContext('2d');
    
@@ -24,6 +20,11 @@ $(document).ready(function(){
         img1.src = 'img-main/window/sobor3.png';
     document.getElementById("img_w").width=img1.width;
         document.getElementById("img_w").height=img1.height;
+    
+    console.log("w1-"+document.getElementById("img_t").width);
+     console.log("h1-"+document.getElementById("img_t").height);
+     console.log("w2-"+document.getElementById("img_w").width);
+     console.log("h2-"+document.getElementById("img_w").height);
     // копируем изображение в canvas
     $(img).load(function(){
         
@@ -65,6 +66,19 @@ $(document).ready(function(){
       $('#hex input').val('#' + hex);
          $('#rgb1 input').val(rgb1);
       $('#hex1 input').val('#' + hex1);
+        if(rgb==rgb1)
+           {
+              
+                document.getElementById("img_t").style.opacity="0.7";
+               document.getElementById("info_block").style.display="block";
+                
+           }
+        if(rgb!=rgb1)
+           {
+                document.getElementById("img_t").style.opacity="1";
+               document.getElementById("info_block").style.display="none";
+                
+           }
     });
 
    document.getElementById('img_w').onclick = function(e) {
