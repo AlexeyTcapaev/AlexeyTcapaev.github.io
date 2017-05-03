@@ -1,0 +1,21 @@
+@media screen and (max-width: 1366px) 
+{
+    .top_auth_and_text h1
+    {
+     width: 50%;
+     margin-left: 5%;
+   
+    font-size: 3.5em;
+    color:#232F48;
+    }
+   .access_button div p
+    {
+       
+        font-size: 1.1em;
+    }
+    .carousel div
+    {
+        width: 20%;
+        height: 78%;
+    }
+}

@@ -26,6 +26,7 @@ nav
     height: 10%;
     display: flex;
     flex-direction: row;
+    margin-bottom: 6%;
 }
 .auth_top_selectors p
 {
@@ -53,8 +54,7 @@ nav
 .top_auth_and_text h1
 {
     width: 50%;
-   margin-left: 5%;
-   
+   margin-left: 6%;
     font-size: 4.3em;
     color: #232F48;
     margin-left:%;
@@ -220,4 +220,70 @@ nav input
   align-self: auto;
     width: 12%;
 }
-
+.shortcast
+{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.shortcast h2
+{
+   color: #2b374f;
+    font-size: 3em;
+    margin: 0;
+}
+.shortcast p
+{
+    width: 90%;
+    text-align: center;
+     color: #2b374f;
+    font-size: 1.6em;
+}
+.obj_bar
+{
+    width: 100%;
+    height: 60%;
+    
+}
+.top_info
+{
+    width: 100%;
+    height: 13%;
+    background-color: #2b374f;
+}
+.top_info h3
+{
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    height: 100%;
+    display: flex;
+    
+    align-items: center;
+    text-align: left;
+    margin-left: 6%;
+    font-size: 1.5em;
+    color: white;
+}
+.carousel
+{
+    width: 100%;
+    height: 87%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;;
+    align-items: center;
+}
+.carousel div
+{
+    width: 20%;
+    height: 74.7%;
+ 
+    border-radius: 50%;
+    background-image: url(../img/x_f4a7f212.jpg);
+    background-position: center;
+    background-size: cover;
+}

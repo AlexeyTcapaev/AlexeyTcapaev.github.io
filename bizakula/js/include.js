@@ -1,7 +1,6 @@
-$(document).ready(function(){
-  $('.list_list_cont').slick({
-    infinite: true,
-  slidesToShow: 3,
-  slidesToScroll: 3
-  });
+$(document).ready(function()
+{
+    
+   console.log($(".carousel div").width());
+      console.log($(".carousel div").height());
 });
