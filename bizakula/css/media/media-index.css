@@ -5,17 +5,31 @@
      width: 50%;
      margin-left: 5%;
    
-    font-size: 3.5em;
+    font-size: 3em;
     color:#232F48;
     }
    .access_button div p
     {
        
-        font-size: 1.1em;
+        font-size: 1em;
     }
     .carousel div
     {
         width: 20%;
         height: 78%;
+    }
+    .auth_top_selectors div p
+    {
+        margin: 0;
+        padding: 0;
+        padding-left: 3px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+    .buttons
+    { 
+        margin-left: 15%;
     }
 }
