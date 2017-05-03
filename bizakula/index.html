@@ -1,152 +1,42 @@
-<!DOCTYPE html>
 <html>
-	<head>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="css/index.css">
-        <link href="https://fonts.googleapis.com/css?family=Scada" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
-        <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
-     
-				
-		<title>
-			Ресторан Я Люблю
-		</title>
-	</head>
-	<body> 
-        <nav>
-            <div class="topnav">
-                <div class="logo">
-                </div>
-               <input class="search" placeholder="Начни поиск прямо сейчас!" />
-                <div class="button1">
-                </div>  
-            </div>
-             <div class="main_top">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	    <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <img src="img/logo.svg" class="logo"> 
+                <input placeholder="Начать поиск">
+                <div class="buttons"></div>
+            </nav>
+            <div class="top_auth_and_text">
                 <h1>Самый простой и быстрый поиск по бизнес пространству Санкт-Петербурга</h1>
                 <div class="auth">
-                     <div class="top_link">
-                         <a href="#1" class="log_links">Войти с помощью</a>
-                         <a href="#2" class="log_links">Регистрация</a>
+                    <div class="auth_top_selectors"><p>Войти с помощью</p><p>Регистрация</p></div>
+                    <div class="social">
+                        <img src="img/fb.svg">
+                        <img src="img/ln.svg">
+                        <img src="img/w.svg">
+                        <img src="img/box.svg">
                     </div>
-                    <div class="sodicl_links">
-                        <ul>
-                            <li><div class="vk"></div>
-                            </li>
-                            <li><div class="ok"></div>
-                            </li>
-                            <li><div class="fb"></div>
-                            </li>
-                            <li><div class="li"></div>
-                            </li>
-                        </ul>
+                    <div class="input_block">
+                        <input placeholder="E-mail или телефон">
+                        <input placeholder="Пароль" type="password">
                     </div>
-                    <div class="auth_data">
-                    <input class="login" placeholder="E-mail или телефон" />
-                    <input class="pass" placeholder="Пароль" />
+                    <div class="log_settings">
+                        <div class="input_remember">
+                            <input type="checkbox">
+                            <p>Запомнить</p>
+                        </div>
+                        <a href="#">Забыли пароль?</a>
                     </div>
-                    <div class="somecheck">
-                        <label><input type="checkbox" name="roundedOne">Запомнить</label>
-                        <a class="reset_link">Забыли пароль?
-                        </a>
+                    <div class="access_button">
+                        <div><p>Войти</p></div>
                     </div>
-                    <input type="button" class="login_button" value="Войти" />
                 </div>
             </div>
-        </nav>
-        <div class="info">
-            <h2>Коротко о проекте
-            </h2>
-            <p class=info_p>Вы сейчас находитесь в уникольном месте - бизнес пространстве,созданным для деловых людей.<br>
-            С помощью проекта Бизнес Акула можно находить нужную информацию,деловых партнёров и клиентов для бизнеса.<br>
-            Делится своими достижениями и рекламировать собственное дело.<br>
-            Бизнес Акула - это ещё и рейтинг лучших компаний и предприятий России.Присоединяйтесь к акула!
-            </p>
-        </div>
-        <div class="list_cont">
-            <div class="head_list_cont"><h3>Только что присоеденились</h3></div>
-            <div class="list_list_cont">
-                <div class="obj_list_list_cont">
-                    <div class="img_obj_list_list_cont">
-                    </div>
-                        <p class="p_p_obj_list_list_cont">Вы сейчас находитесь в униколньом месте</p>
-                    
-                </div>
-                 <div class="obj_list_list_cont">
-                    <div class="img_obj_list_list_cont">
-                    </div>
-                        <p class="p_p_obj_list_list_cont">Вы сейчас находитесь в униколньом месте</p>
-                    
-                </div>
-                 <div class="obj_list_list_cont">
-                    <div class="img_obj_list_list_cont">
-                    </div>
-                        <p class="p_p_obj_list_list_cont">Вы сейчас находитесь в униколньом месте</p>
-                    
-                </div>
-                <div class="obj_list_list_cont">
-                    <div class="img_obj_list_list_cont">
-                    </div>
-                        <p class="p_p_obj_list_list_cont">Вы сейчас находитесь в униколньом месте</p>
-                    
-                </div>
-                <div class="obj_list_list_cont">
-                    <div class="img_obj_list_list_cont">
-                    </div>
-                        <p class="p_p_obj_list_list_cont">Вы сейчас находитесь в униколньом месте</p>
-                    
-                </div>
-                
-            </div>
-        </div>
-         <div class="list_cont">
-            <div class="head_list_cont"><h3>Ваши Желания</h3></div>
-            <div class="list_list_cont">
-                <div class="obj_list_list_cont">
-                    <div class="img_obj_list_list_cont">
-                    </div>
-                        <p class="p_p_obj_list_list_cont">Вы сейчас находитесь в униколньом месте</p>
-                    
-                </div>
-                <div class="obj_list_list_cont">
-                    <div class="img_obj_list_list_cont">
-                    </div>
-                        <p class="p_p_obj_list_list_cont">Вы сейчас находитесь в униколньом месте</p>
-                    
-                </div>
-                <div class="obj_list_list_cont">
-                    <div class="img_obj_list_list_cont">
-                    </div>
-                        <p class="p_p_obj_list_list_cont">Вы сейчас находитесь в униколньом месте</p>
-                    
-                </div>
-               
-            </div>
-        </div>
-        <div class="footer">
-            <div class="main_info_footer">
-                 <h2 class="h2_main_info_footer">Коротко о проекте
-            </h2>
-            <p class="p_main_info_footer">Вы сейчас находитесь в уникольном месте - бизнес пространстве,созданным для деловых людей.<br>
-            С помощью проекта Бизнес Акула можно находить нужную информацию,деловых партнёров и клиентов для бизнеса.<br>
-            Делится своими достижениями и рекламировать собственное дело.<br>
-            Бизнес Акула - это ещё и рейтинг лучших компаний и предприятий России.Присоединяйтесь к акула!
-            </p>
-            </div>
-            <div class="sitemap_footer">
-                <div class="logo_sitemap_footer">
-                </div>
-                <ul class="ul_sitemap_footer">
-                    <li><p class="p_ul_sitemap">Помощь</p></li>
-                     <li><p class="p_ul_sitemap">Реклама</p></li>
-                     <li><p class="p_ul_sitemap">Правила</p></li>
-                     <li><p class="p_ul_sitemap">Статьи</p></li>
-                </ul>
-            </div>
-        </div>
-<script type="text/javascript" src="https://yastatic.net/jquery/2.1.3/jquery.min.js"></script>
- <script type="text/javascript" src="slick/slick.min.js"></script>
-         <script type="text/javascript" src="slick/slick.js"></script>
-        <script type="text/javascript" src="js/include.js"></script>
+        </header>
     </body>
 </html>
