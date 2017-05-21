@@ -132,11 +132,86 @@
         padding-top: 1%;
     }
     }
-@media (max-width: 850px) 
+@media screen and (max-width: 1024px) 
 {
-       .headnav {
-        flex-direction: column;
-        
-      }
-      
+    .phone1
+    {
+        font-size: 1.2em;
+    }
+    .icon_call
+    {
+        width: 20px;
+        height: 20px;
+    }
+    #comment_bubble
+    {
+            margin-top: 8%;
+            margin-left: -8%;
+    }
+    .inputinf
+    {
+        width: 50%;
+    }
+    .select_nav_container
+    {
+        margin-bottom: 2%;
+    }
+    .yandexmaps
+    {
+        margin-top: 2%;
+    }
+}
+@media screen and (max-width: 768px) 
+{
+    .phone1
+    {
+        font-size: 1em;
+    }
+    .icon_call
+    {
+        width: 20px;
+        height: 20px;
+    }
+    .linkmenu
+    {
+        font-size: 1em;
+    }
+     .menulink
+    {
+        font-size: 1em;
+    }
+    #overtext
+    {
+         font-size: 1em;
+    }
+    .headnav li
+    {
+            padding-top: 1.5%;
+    }
+   .button:hover>.list 
+    {
+            height: 168px;
+    }
+    .second_container div img
+    {
+        align-self: auto;
+    }
+    .second_content_text
+    {
+        font-size: 1.2em;
+            font-weight: inherit;
+    }
+    .second_content_text_sell
+    {
+         font-size: 3em;
+    }
+    .box
+    {
+        width: 60%;
+    }
+    .closemodal
+    {
+        padding-top: 5%;
+        height: 6%;
+    }
 }
