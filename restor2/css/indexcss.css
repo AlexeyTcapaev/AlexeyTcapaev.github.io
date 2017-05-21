@@ -7,6 +7,10 @@ body
 {
     height: 4000px;   
 }
+ .headnav div
+{
+    display: none;
+}
 .tellink
 {
     width: 30%;
@@ -246,6 +250,14 @@ h5
     justify-content: center;
    
     
+}
+.mob_list
+{
+    display: none;
+}
+.mobile_logo
+{
+    display: none;
 }
 .phone
 {

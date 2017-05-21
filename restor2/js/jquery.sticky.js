@@ -27,6 +27,7 @@
                         .css('background-color','')
                             .removeClass(s.className);
                        document.getElementById('nav_l').style.display='none';
+                         document.getElementById('m_l').style.display="none";  
                         s.stickyElement.parent().removeClass(s.className);
                         s.currentTop = null;
                     }
@@ -39,6 +40,37 @@
                     } else {
                         newTop = s.topSpacing;
                     }
+                    if(document.documentElement.clientWidth<=414)
+                        {
+                             if (s.currentTop != newTop) {
+                        s.stickyElement
+                            .css('position', 'fixed')
+                            .css('top', newTop)
+                            .css('background-color','white')
+                        .css('box-shadow','0px 9px 21px -9px rgba(0,0,0,0.75)')
+                            .addClass(s.className);
+                        document.getElementById('m_l').style.display='flex';
+                       
+                        s.stickyElement.parent().addClass(s.className);
+                        s.currentTop = newTop;
+                        var images = ['../logo/logo-ilove', '../logo/heart-shape-outline_318-32549.svg', '../logo/logo-lapanorama']; //Ссылки к изображениям
+                        var turn = 0;
+                        function imgLoad() {
+                           if(!images[turn]) return;
+                           var a = new Image();
+                           a.alt = '';
+                           a.src = images[turn];
+                           turn++;
+                           a.onload = function() 
+                           {                   document.getElementById('m_l').appendChild(a);
+                           }
+                        }
+                        imgLoad();
+                               document.getElementById('m_l').style.opacity="1";  
+
+                    }
+                        }
+                    else
                     if (s.currentTop != newTop) {
                         s.stickyElement
                             .css('position', 'fixed')
