@@ -334,7 +334,7 @@
     }
     .mobile_nav
     { 
-       position: relative;
+       
         display: flex;
         flex-direction: row;
         justify-content:space-between;
@@ -349,7 +349,7 @@
     }
     .list_open_button
     {
-       
+        position: relative;
         background-image: url(../img-main/menu.svg);
         background-repeat: no-repeat;
         align-self: center;
@@ -359,6 +359,10 @@
         min-width: 50px;
          transition: 0.2s linear;
        
+    }
+    .anchor
+    {
+        position: relative;
     }
     .recall
     {
@@ -375,7 +379,7 @@
         justify-content: center;
         position: absolute;
         background-color: white;
-        width: 50%;
+        width:200px;
         
         height: 400px;
         box-shadow: rgba(0, 0, 0, 0.75) 0px 9px 21px -9px;

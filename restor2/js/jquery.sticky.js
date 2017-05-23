@@ -1,4 +1,5 @@
 (function($) {
+      
     var defaults = {
             topSpacing: 0,
             bottomSpacing: 0,
@@ -26,8 +27,11 @@
                         .css('box-shadow','')
                         .css('background-color','')
                             .removeClass(s.className);
+                        if(document.getElementById('m_l').style.display!="none")
+                            {
+                                    document.getElementById('m_l').style.display="none";  
+                            }
                        document.getElementById('nav_l').style.display='none';
-                         document.getElementById('m_l').style.display="none";  
                         s.stickyElement.parent().removeClass(s.className);
                         s.currentTop = null;
                     }
