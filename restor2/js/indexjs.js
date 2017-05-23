@@ -250,10 +250,10 @@ $(document).ready(function()
         cc++; 
         if(cc%2!=0)
             {
-                  $('#lst').fadeIn();
+                document.getElementById('lst').style.display="block";
                 
             }
-        else $('#lst').fadeOut();
+        else  document.getElementById('lst').style.display="none";
     });
     
 });
