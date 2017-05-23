@@ -1,6 +1,10 @@
 $(function()
 {
-   
+   if(document.documentElement.clientWidth<=414)
+       {
+           
+       }
+    else {
     $('.recall').click(function()
     {
         document.getElementById('modalbox').style.display="flex";
@@ -22,7 +26,7 @@ $(function()
                 
 
     });
-    
+    }
     $('.closebutton').click(function()
     {
          document.getElementById('modalbox').style.display="none";
