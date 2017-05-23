@@ -251,6 +251,10 @@ h5
    
     
 }
+.phone2
+{
+    display: none;
+}
 .mob_list
 {
     display: none;
@@ -382,22 +386,12 @@ h5
 {
     cursor: pointer;
 }
-.headnav:hover
-{
-}
 .logo1
 {
     display: block;
     margin: auto;
 }
-@media (max-width: 850px) 
-{
-      ul {
-        display: none;
-        
-      }
-      
-}
+
 .topnav
 {
     display: flex;
@@ -564,16 +558,22 @@ p
   transition: 0.5s ease-in-out;
      
 }
-li
+#line
 {
      text-align: center;
      transition: 0.5s ease-in-out;
      width: 100%;
 }
-li:hover .line
+#line .line
 {
   background-color: black;
    
+}
+.line
+{
+    background-color: white;
+     height: 2px;
+    width: 100%;
 }
  .menulink {
       font-family: 'Poiret One', cursive;
@@ -1122,6 +1122,7 @@ h6
     justify-content:center; 
     
 }
+
 .line1
 {
     background-color: white;

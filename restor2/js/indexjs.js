@@ -238,6 +238,7 @@ $(document).ready(function(){
                 $(".headnav").sticky({
                     topSpacing:0
                 });
+               document.getElementById('notonly').href="#";
           }
   });
 $(document).ready(function()
@@ -250,10 +251,10 @@ $(document).ready(function()
         cc++; 
         if(cc%2!=0)
             {
-                  $('#lst').fadeIn();
+                document.getElementById('lst').style.display="block";
                 
             }
-        else $('#lst').fadeOut();
+        else  document.getElementById('lst').style.display="none";
     });
     
 });
