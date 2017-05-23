@@ -251,10 +251,10 @@ $(document).ready(function()
         cc++; 
         if(cc%2!=0)
             {
-                document.getElementById('lst').style.display="block";
+                $('#lst').fadeIn();
                 
             }
-        else  document.getElementById('lst').style.display="none";
+        else  $('#lst').fadeOut();
     });
     
 });
