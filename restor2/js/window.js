@@ -50,19 +50,47 @@ $(document).ready(function(){
     {
         ctx2.drawImage(pic2, 0, 0);  
     }
+   /*
+   var canvas = document.getElementById('img_w').getContext('2d'); 
+    var canvas1 = document.getElementById('img_t').getContext('2d');
    
-   
-    $('#img_t').mousemove(function(event){
+    // создание изображения
+    var img = new Image();
+    img.src = 'img-main/window/sobor2.png';
+      document.getElementById("img_t").width=img.width;
+        document.getElementById("img_t").height=img.height;
+    console.log(document.getElementById("img_t").width);
+      var img1 = new Image();
+        img1.src = 'img-main/window/sobor3.png';
+         document.getElementById("img_w").width=img1.width;
+        document.getElementById("img_w").height=img1.height;
+       
     
+    console.log("w1-"+document.getElementById("img_t").width);
+     console.log("h1-"+document.getElementById("img_t").height);
+     console.log("w2-"+document.getElementById("img_w").width);
+     console.log("h2-"+document.getElementById("img_w").height);
+    // копируем изображение в canvas
+    $(img).load(function(){
         
-      if($('contain').hover)
-          {
+      canvas.drawImage(img,0,0);
       
-      // получене координат
-         
+    });
+     $(img1).load(function(){
+        
+      canvas1.drawImage(img1,0,0);
+       
+     
+    }); 
+     */
+
+    $('#img_t').click(function(event){
+      // получение координат
      var x = event.offsetX==undefined?event.layerX:event.offsetX;
       var y = event.offsetY==undefined?event.layerY:event.offsetY;
-        console.log(x+"||"+y);
+       $('#x input').val(x);
+      $('#y input').val(y);
+        console.log(x+"+"+y);
       var img_data = ctx1.getImageData(x,y, 1, 1).data;
       var img_data1 = ctx2.getImageData(x,y, 1, 1).data;
        
@@ -75,40 +103,26 @@ $(document).ready(function(){
       // конвертируем из RGB в HEX
       var hex = rgbToHex(R,G,B);
         var hex1 = rgbToHex(R1,G1,B1);
-                console.log(rgb+"---"+rgb1);
-        if(R==0&&G==0&&B==0)
-            {
-                  
-                document.getElementById("img_t").style.opacity="1";
-               document.getElementById("info_block").style.display="none";
-               
-            }
-              else
-                  {
-                      
-                
+         console.log("1-"+R+"-"+G+"-"+B);
+        console.log("2-"+R1+"-"+G1+"-"+B1);
+      // показываем значения
+      $('#rgb input').val(rgb);
+      $('#hex input').val('#' + hex);
+         $('#rgb1 input').val(rgb1);
+      $('#hex1 input').val('#' + hex1);
         if(rgb==rgb1)
            {
               
-              document.getElementById("img_t").style.opacity="0.7";
+                document.getElementById("img_t").style.opacity="0.7";
                document.getElementById("info_block").style.display="block";
                 
            }
         if(rgb!=rgb1)
            {
-               
                 document.getElementById("img_t").style.opacity="1";
                document.getElementById("info_block").style.display="none";
                 
            }
-                  }
-          }
-            
-    });
-    
-         
-    
- 
-    
+    });  
 });
     
