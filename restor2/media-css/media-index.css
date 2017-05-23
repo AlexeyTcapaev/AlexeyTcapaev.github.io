@@ -152,10 +152,7 @@
     {
         width: 50%;
     }
-    .select_nav_container
-    {
-        margin-bottom: 2%;
-    }
+    
     .yandexmaps
     {
         margin-top: 2%;
@@ -440,6 +437,10 @@
         width: 50%;
         height: 100%;
        
+    }
+    .select_nav_container
+    {
+        margin-bottom: 3%;
     }
     .second_container
     {
