@@ -1,5 +1,21 @@
 @media screen and (max-width: 1366px) 
 {
+    .search_info ul li p
+    {
+         font-size: 1.3em;
+    }
+    .usualli_li_c
+    {
+        font-size: 1em;
+    }
+    .usualli_li_text
+    {
+        font-size: 1em;
+    }
+    .target_li_text
+    {
+        font-size: 1em;
+    }
     .menulink,.linkmenu
     {
         font-size: 1.30em;
@@ -171,6 +187,51 @@
 }
 @media screen and (max-width: 768px) 
 {
+    .cont_list
+    {
+        width: 70%;
+    }
+    #i1
+    {
+        background-size: contain;
+    }
+     #i2
+    {
+        background-size: contain;
+    }
+     #i3
+    {
+        background-size: contain;
+    }
+     #i4
+    {
+        background-size: contain;
+    }
+     #i5
+    {
+        background-size: contain;
+    }
+    .usualli_li_c
+    {
+        font-size: 0.9em; 
+    }
+    .target_li_c
+    {
+        font-size: 1em;
+    }
+    .target_li_text
+    {
+        font-size: 0.8em;
+    }
+    .usualli_li_text
+    {
+        font-size: 0.8em;
+    }
+    .search_info ul li p
+    {
+        font-size: 0.9em;
+        font-weight: 600;
+    }
     .phone1
     {
         font-size: 1em;
@@ -345,6 +406,58 @@
 }
 @media screen and (max-width: 414px) 
 {
+    .target_li 
+    {
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    }
+    .img_item_c 
+    {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-image: url(../img-main/menuimg/img_item_1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+    .Item_text
+    {
+        width: 100%;
+    }
+    .Item_img
+    {
+        width: 100%;
+    }
+    .item_counter
+    {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+    }
+    h5
+    {
+      
+    }
+    .search_info
+    {
+        width: 100%;
+    }
+    .cont_list
+    {
+        width: 100%;
+    }
+    .centr_cont
+    {
+        flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
      nav
     {
         align-self: center;
@@ -616,6 +729,19 @@
 }
 @media screen and (max-width: 568px)
 {
+    .usualli_li_c 
+    {
+    font-size: 0.9em;
+   
+    display: flex;
+    justify-content: flex-end;
+    }
+    .usualli_li
+    {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    }
     #overtext 
     {
     font-size: 0.8em;
@@ -637,9 +763,553 @@
     width: 50%;
     }
 }
+@media screen and (max-width: 667px)
+{
+    
+    .target_li 
+    {
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    }
+    .img_item_c 
+    {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-image: url(../img-main/menuimg/img_item_1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+    .Item_text
+    {
+        width: 100%;
+    }
+    .Item_img
+    {
+        display: none;
+    }
+    .item_counter
+    {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+    }
+    h5
+    {
+      
+    }
+    .search_info
+    {
+        width: 100%;
+    }
+    .cont_list
+    {
+        width: 100%;
+    }
+    .centr_cont
+    {
+        flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+     nav
+    {
+        align-self: center;
+        background-position: center;
+    }
+    .carousel
+    {
+        display: none;
+    }
+    .headnav
+    {
+      display: none;
+    }
+   .icon_call
+    {
+        width: 20px;
+        height: 20px;
+    }
+    .phone1
+    {
+       display: none;
+    }
+    .logo_1
+    {
+        margin-top: 4%;
+        width: 70%;
+    }
+    .logo_2
+    {
+        width: 70%;
+    }
+    .logo_3
+    {
+        width: 70%;
+    }
+    .mobile_nav
+    { 
+       
+        display: flex;
+        flex-direction: row;
+        justify-content:space-between;
+        align-items: center;
+        background-image: url(../img-main/panoramafon.png);
+        transition: 0.2s linear;
+      
+        width: 100%;
+        height: 70px;
+        z-index: 1000;
+       
+    }
+    .list_open_button
+    {
+        position: relative;
+        background-image: url(../img-main/menu.svg);
+        background-repeat: no-repeat;
+        align-self: center;
+        margin-right: 2%;
+        width: 50px;
+        height: 50px;
+        min-width: 50px;
+         transition: 0.2s linear;
+       
+    }
+    .sociallink1
+    {
+        margin-top: 2%;
+    }
+    .logo_1_bottom
+    {
+        width: 50%;
+    }
+    .logo_2_bottom
+    {
+        width: 50%;
+    }
+    .logo_3_bottom
+    {
+        width: 50%;
+    }
+    .second_content_text
+    {
+         text-align: justify;
+        font-weight: inherit;
+         padding-left: 0%;
+        margin-right: 0%; 
+    }
+    .nav_select
+    {
+        width: 50%;
+    }
+    .anchor
+    {
+        position: relative;
+        margin-top: 17%;
+        
+    }
+    .second_content_text_sell
+    {
+        padding: 0;
+        font-size: 2em;
+    }
+    .text_container
+    {
+        height: 30%;
+        justify-content: space-around;
+       
+    }
+    .recall
+    {
+        display: none;
+    }
+    .count_news
+    {
+     margin-left: 70%;   
+    }
+    .mob_list
+    {
+        background-color: white;
+        display: none;
+        flex-direction: column;
+        justify-content: center;
+        position: absolute;
+        right: -60px;
+      
+        width:200px;
+        height: 410px;
+        box-shadow: rgba(0, 0, 0, 0.75) 0px 9px 21px -9px;
 
+    }
+    .mob_list li a
+    {
+        font-size: 1.3em;
+    }
+    .mobile_logo
+    {
+          opacity: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      
+        width: 50%;
+        height: 100%;
+       
+    }
+    .select_nav_container
+    {
+        margin-bottom: 10%;
+    }
+    .second_container
+    {
+        height: 30%;
+    }
+      .second_container_1
+    {
+        height: 30%;
+    }
+    img
+    {
+        width: 100%;
+    height: auto;
+    }
+    .logo_container_bottom
+    {
+        height: 30%;
+    }
+    .bottommore
+    {
+        height: auto;
+        align-items: center;
+    }
+    .phone1
+    {
+        padding-top: 0;
+    }
+    .time_work
+    {
+        width: 100%;
+    }
+    .time_work li
+    {
+        width: 100%;
+    }
+   .time_work li p
+    {
+        font-size: 1em;
+    }
+    .mobile_logo img
+    {
+        padding-top: 2%;
+        width: 100px;
+    }
+    .map_ul
+    {
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+    .phone2
+    {
+         font-family: 'Poiret One', cursive;
+          text-decoration: none;
+            text-align: center;
+        font-size: 1.3em;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        height: 50%;
+    }
+    .second_content_text
+    {
+        
+    }
+    h4
+    {
+        font-size: 1.4em;
+    }
+    
+}
 @media screen and (max-width: 732px)
 {
+    
+    .target_li 
+    {
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    }
+    .img_item_c 
+    {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-image: url(../img-main/menuimg/img_item_1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+    .Item_text
+    {
+        width: 100%;
+    }
+    .Item_img
+    {
+        display: none;
+    }
+    .item_counter
+    {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+    }
+    h5
+    {
+      
+    }
+    .search_info
+    {
+        width: 100%;
+    }
+    .cont_list
+    {
+        width: 100%;
+    }
+    .centr_cont
+    {
+        flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+     nav
+    {
+        align-self: center;
+        background-position: center;
+    }
+    .carousel
+    {
+        display: none;
+    }
+    .headnav
+    {
+      display: none;
+    }
+   .icon_call
+    {
+        width: 20px;
+        height: 20px;
+    }
+    .phone1
+    {
+       display: none;
+    }
+    .logo_1
+    {
+        margin-top: 4%;
+        width: 70%;
+    }
+    .logo_2
+    {
+        width: 70%;
+    }
+    .logo_3
+    {
+        width: 70%;
+    }
+    .mobile_nav
+    { 
+       
+        display: flex;
+        flex-direction: row;
+        justify-content:space-between;
+        align-items: center;
+        background-image: url(../img-main/panoramafon.png);
+        transition: 0.2s linear;
+      
+        width: 100%;
+        height: 70px;
+        z-index: 1000;
+       
+    }
+    .list_open_button
+    {
+        position: relative;
+        background-image: url(../img-main/menu.svg);
+        background-repeat: no-repeat;
+        align-self: center;
+        margin-right: 2%;
+        width: 50px;
+        height: 50px;
+        min-width: 50px;
+         transition: 0.2s linear;
+       
+    }
+    .sociallink1
+    {
+        margin-top: 2%;
+    }
+    .logo_1_bottom
+    {
+        width: 50%;
+    }
+    .logo_2_bottom
+    {
+        width: 50%;
+    }
+    .logo_3_bottom
+    {
+        width: 50%;
+    }
+    .second_content_text
+    {
+         text-align: justify;
+        font-weight: inherit;
+         padding-left: 0%;
+        margin-right: 0%; 
+    }
+    .nav_select
+    {
+        width: 50%;
+    }
+    .anchor
+    {
+        position: relative;
+        margin-top: 17%;
+        
+    }
+    .second_content_text_sell
+    {
+        padding: 0;
+        font-size: 2em;
+    }
+    .text_container
+    {
+        height: 30%;
+        justify-content: space-around;
+       
+    }
+    .recall
+    {
+        display: none;
+    }
+    .count_news
+    {
+     margin-left: 70%;   
+    }
+    .mob_list
+    {
+        background-color: white;
+        display: none;
+        flex-direction: column;
+        justify-content: center;
+        position: absolute;
+        right: -60px;
+      
+        width:200px;
+        height: 410px;
+        box-shadow: rgba(0, 0, 0, 0.75) 0px 9px 21px -9px;
+
+    }
+    .mob_list li a
+    {
+        font-size: 1.3em;
+    }
+    .mobile_logo
+    {
+          opacity: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      
+        width: 50%;
+        height: 100%;
+       
+    }
+    .select_nav_container
+    {
+        margin-bottom: 10%;
+    }
+    .second_container
+    {
+        height: 30%;
+    }
+      .second_container_1
+    {
+        height: 30%;
+    }
+    img
+    {
+        width: 100%;
+    height: auto;
+    }
+    .logo_container_bottom
+    {
+        height: 30%;
+    }
+    .bottommore
+    {
+        height: auto;
+        align-items: center;
+    }
+    .phone1
+    {
+        padding-top: 0;
+    }
+    .time_work
+    {
+        width: 100%;
+    }
+    .time_work li
+    {
+        width: 100%;
+    }
+   .time_work li p
+    {
+        font-size: 1em;
+    }
+    .mobile_logo img
+    {
+        padding-top: 2%;
+        width: 100px;
+    }
+    .map_ul
+    {
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+    .phone2
+    {
+         font-family: 'Poiret One', cursive;
+          text-decoration: none;
+            text-align: center;
+        font-size: 1.3em;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        height: 50%;
+    }
+    .second_content_text
+    {
+        
+    }
+    h4
+    {
+        font-size: 1.4em;
+    }
+    
     .carousel
     {
         display: none;
@@ -720,4 +1390,11 @@
     {
         justify-content: space-around;
     }
+}
+@media screen and (max-width: 412px)
+{
+    .Item_img {
+    display: flex;
+}
+
 }
