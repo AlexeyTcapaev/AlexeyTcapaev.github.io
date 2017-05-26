@@ -679,6 +679,10 @@
 }
 @media screen and (max-width: 375px)
 {
+    .centr_cont
+    {
+        height: 70%;
+    }
    
   .anchor
     {
