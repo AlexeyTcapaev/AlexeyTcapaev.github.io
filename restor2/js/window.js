@@ -18,13 +18,13 @@ $(document).ready(function(){
                 {
                      var_i1.width = 1300;
                      var_i1.height =  650;
-                    pic1.src = '/img-main/window/sobor3_1300_650.png';
+                    pic1.src = '/restor2/img-main/window/sobor3_1300_650.png';
                 }
      if(screen.width==1920)
          {
           var_i1.width = 1900;
           var_i1.height =  960;
-          pic1.src = '/img-main/window/sobor3.png';
+          pic1.src = '/restor2/img-main/window/sobor3.png';
          }
     pic1.onload = function ()
     {
@@ -37,14 +37,14 @@ $(document).ready(function(){
                 {
                      var_i2.width = 1300;
                      var_i2.height =  650;
-                    pic2.src = '/img-main/window/sobor2_1300_650.png';
+                    pic2.src = '/restor2/img-main/window/sobor2_1300_650.png';
                 }
     
     if(screen.width==1920)
         {
           var_i2.width = 1900;
           var_i2.height =  960;
-          pic2.src = '/img-main/window/sobor2.png';
+          pic2.src = '/restor2/img-main/window/sobor2.png';
         }
     pic2.onload = function ()
     {

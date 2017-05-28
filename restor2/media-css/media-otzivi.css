@@ -1121,7 +1121,7 @@
 }
 @media screen and (max-width: 375px)
 {
-    .comm_info_set .b 
+    .b 
     {
        width: auto;
     height: 26%;
@@ -1142,7 +1142,7 @@
 }
 @media screen and (max-width: 667px)
 {
-     .comm_info_set .b 
+     .b 
     {
        width:18%
   
@@ -1426,6 +1426,7 @@
     }
     
 }
+
 @media screen and (max-width: 320px)
 {
     .sociallink1
