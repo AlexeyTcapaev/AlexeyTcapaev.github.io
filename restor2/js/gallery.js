@@ -1,12 +1,24 @@
 $(document).ready(function(){
    var i,l;   
-    
-$('.alboums').slick({
-  infinite: true,
-   dots:true,
-  slidesToShow: 3,
-  slidesToScroll: 3
-});
+    if(document.documentElement.clientWidth<=414)
+        {
+            $('.alboums').slick({
+              infinite: true,
+               dots:true,
+              slidesToShow: 2,
+              slidesToScroll: 2
+            });
+            
+        }
+    else
+    {
+        $('.alboums').slick({
+          infinite: true,
+           dots:true,
+          slidesToShow: 3,
+          slidesToScroll: 3
+        });
+    }
     $('.closebutton').click(function()
     {
         document.getElementById('modalbox').style.display="none";

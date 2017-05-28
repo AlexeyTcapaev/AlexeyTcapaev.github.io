@@ -27,7 +27,7 @@
                         .css('box-shadow','')
                         .css('background-color','')
                             .removeClass(s.className);
-                        if(document.getElementById('m_l').style.display!="none")
+                        if(document.documentElement.clientWidth<=414)
                             {
                                     document.getElementById('m_l').style.display="none";  
                             }
