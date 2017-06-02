@@ -1,220 +1,289 @@
 <!DOCTYPE html>
 <html>
-	<head>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta charset="utf-8">
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Poiret+One" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="css/indexcss.css">
-        <link rel="stylesheet" type="text/css" href="css/fonts.css">
-         <link rel="stylesheet" type="text/css" href="media-css/media-index.css">
-         <link rel="stylesheet" type="text/css" href="slick/slick.css">
-        <link rel="stylesheet" type="text/css" href="slick/slick-theme.css">
-        <script
-  src="https://code.jquery.com/jquery-1.8.3.min.js"
-  integrity="sha256-YcbK69I5IXQftf/mYD8WY0/KmEDCv1asggHpJk1trM8="
-  crossorigin="anonymous"></script>
-        <script type="text/javascript" src="js/indexjs.js"></script>
-        <script type="text/javascript" src="slick/slick.min.js"></script>
-        <script type="text/javascript" src="js/jquery.sticky.js"></script>
-        <!-- Yandex.Metrika counter -->
-<script type="text/javascript">
-    (function (d, w, c) {
-        (w[c] = w[c] || []).push(function() {
-            try {
-                w.yaCounter44488048 = new Ya.Metrika({
-                    id:44488048,
-                    clickmap:true,
-                    trackLinks:true,
-                    accurateTrackBounce:true,
-                    webvisor:true,
-                    trackHash:true
-                });
-            } catch(e) { }
-        });
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Poiret+One" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/indexcss.css">
+    <link rel="stylesheet" type="text/css" href="css/fonts.css">
+    <link rel="stylesheet" type="text/css" href="media-css/media-index.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css">
+    <script
+            src="https://code.jquery.com/jquery-1.8.3.min.js"
+            integrity="sha256-YcbK69I5IXQftf/mYD8WY0/KmEDCv1asggHpJk1trM8="
+            crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/indexjs.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script type="text/javascript" src="js/jquery.sticky.js"></script>
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript">
+        (function (d, w, c) {
+            (w[c] = w[c] || []).push(function () {
+                try {
+                    w.yaCounter44488048 = new Ya.Metrika({
+                        id: 44488048,
+                        clickmap: true,
+                        trackLinks: true,
+                        accurateTrackBounce: true,
+                        webvisor: true,
+                        trackHash: true
+                    });
+                } catch (e) {
+                }
+            });
 
-        var n = d.getElementsByTagName("script")[0],
-            s = d.createElement("script"),
-            f = function () { n.parentNode.insertBefore(s, n); };
-        s.type = "text/javascript";
-        s.async = true;
-        s.src = "https://mc.yandex.ru/metrika/watch.js";
+            var n = d.getElementsByTagName("script")[0],
+                s = d.createElement("script"),
+                f = function () {
+                    n.parentNode.insertBefore(s, n);
+                };
+            s.type = "text/javascript";
+            s.async = true;
+            s.src = "https://mc.yandex.ru/metrika/watch.js";
 
-        if (w.opera == "[object Opera]") {
-            d.addEventListener("DOMContentLoaded", f, false);
-        } else { f(); }
-    })(document, window, "yandex_metrika_callbacks");
-</script>
-<!-- /Yandex.Metrika counter -->
-		<title>
-			Ресторан Я Люблю
-		</title>
-	</head>
-	<body> 
-        <div class="modalbox" id="modalbox">
-            <div class="box">
-                <div class="closemodal"><a class="closebutton"></a></div>
-                    <p class="modaltext">Нам важно ваше мнение,поделитесь им!</p>
-                <div class="continput">
-                    <input class="inputinf" placeholder="Дата посещения" type="date"/>
-                    <input class="inputinf" placeholder="Время посещения"/>   
-                    <input class="inputinf" placeholder="Ваше имя"/>
-                    <input class="inputinf" placeholder="Ваш телефон"/>
-                    <input class="inputinf" placeholder="Ваш E-mail"/>
-                    <textarea class="inputinf1" rows="15" cols="45" name="text" placeholder="Ваш отзыв"></textarea>
-                    <input type="button" class="sendbutton" value="Отправить"/>
-                    </div>
-                    
-            
-                
-            </div>
+            if (w.opera == "[object Opera]") {
+                d.addEventListener("DOMContentLoaded", f, false);
+            } else {
+                f();
+            }
+        })(document, window, "yandex_metrika_callbacks");
+    </script>
+    <!-- /Yandex.Metrika counter -->
+    <title>
+        Ресторан Я Люблю
+    </title>
+</head>
+<body>
+<div class="modalbox" id="modalbox">
+    <div class="box">
+        <div class="closemodal"><a class="closebutton"></a></div>
+        <p class="modaltext">Нам важно ваше мнение,поделитесь им!</p>
+        <div class="continput">
+            <input class="inputinf" placeholder="Дата посещения" type="date"/>
+            <input class="inputinf" placeholder="Время посещения"/>
+            <input class="inputinf" placeholder="Ваше имя"/>
+            <input class="inputinf" placeholder="Ваш телефон"/>
+            <input class="inputinf" placeholder="Ваш E-mail"/>
+            <textarea class="inputinf1" rows="15" cols="45" name="text" placeholder="Ваш отзыв"></textarea>
+            <input type="button" class="sendbutton" value="Отправить"/>
         </div>
-         
-      
-            
-            <nav>
-                <a class="phone1"><div class="icon_call"></div>+7-812-925-84-95<br></a>
-                <div class="logo_container"> 
-                 
-                <div class="logo_1"><img src="img-main/logo/logo-ilove.svg"></div>
-                <div class="logo_2"><img src="img-main/logo/heart-shape-outline_318-32549.svg"></div>
-                <div class="logo_3"><img src="img-main/logo/logo-lapanorama.svg"></div>
-                </div>     
-             <div class="mobile_nav" id="mob_f"><div class="mobile_logo" id="m_l">
-                 <img src="img-main/logo/logo-ilove.svg"><img src="img-main/logo/heart-shape-outline_318-32549.svg"><img src="img-main/logo/logo-lapanorama.svg"></div> <a class="phone2"><div class="icon_call"></div>+7-812-925-84-95<br></a><div class="anchor">
-                <ul class="mob_list" id="lst">
-                    <li><a class="menulink">Главная</a></li>
-                    <li><a class="menulink">Акции</a></li>
-                    <li><a class="menulink">Из нашего окна</a></li>
-                    <li><a class="menulink">Меню</a></li>
-                    <li><div class="count_news"><p>1</p></div><a class="menulink">Новости</a></li>
-                    <li><a class="menulink">Отзывы</a></li>
-                    <li><a class="menulink">Галерея</a></li>
-                    <li><a class="menulink">3D Тур</a></li>
-                    <li><a class="menulink">Контакты</a></li>
-                 </ul>
-                     </div><div class="list_open_button" id="r"></div>
-                 
-                </div>
-            <ul class="headnav">
-                 
-                <li class="logo_com" id="nav_l"><a class="logolink" href="index.html">
-                    
-                    <div class="head_logo" id="imgall" ><div class="logo_1_nav"><img src="img-main/logo/logo-ilove.svg"></div>
-                <div class="logo_1_nav"><img src="img-main/logo/heart-shape-outline_318-32549.svg"></div>
-                <div class="logo_1_nav"><img src="img-main/logo/logo-lapanorama.svg"></div></div></a></li>
-                
-                <li id="line"><a href="index.html" class=linkmenu>Главная</a><div class="line"></div></li>
-                 <li id="line"><a href="aktsii.html" class=linkmenu>Акции</a><div class="line"></div></li>
-                <li id="line"><a href="window.html" class=linkmenu id="overtext">Из нашего окна</a><div class="line"></div></li>
-                <li class="button" id="line"><a href="menu.html" class="menulink">Меню</a>
-                <ul class="list">
-                    <li><a href="#" class="menulink">Основное</a></li>
-                    <li><a href="#" class="menulink">Банкетное</a></li>
-                    <li><a href="#" class="menulink">Фуршетное</a> </li>
-                    <li><a href="#" class="menulink">Барное</a></li>
-                </ul>
-                </li>
-                
-                <li id="line" class="cn"><div class="count_news"><p>1</p></div><a href="news.html" class=linkmenu>Новости</a><div class="line"></div>
-                <div id="comment_bubble"><p class="comment_bubble_p">Уважаемые посетители!<br>
-                  Предупреждаем вас что наш ресторан будет закрыт<br>
-                  Дата время<br>Приносим извинения за временные неудобства</p></div> </li>
-                 <li id="line"><a href="otzivi.html" class=linkmenu>Отзывы</a><div class="line"></div></li>
-                 <li id="line"><a href="gallery.html" class=linkmenu>Галерея</a><div class="line"></div></li>
-                 <li id="line"><a href="3dtur.html" class=linkmenu>3D Тур</a><div class="line"></div></li>
-                 <li id="line"><a href="kontaty.html" class=linkmenu>Контакты</a><div class="line"></div></li>           
-            </ul>
-                
-                </nav>
-        <div class="carousel">
-            <div class="videocontainerrest">
-            <div class="lay">
-                <video class="rest_video" muted loop autoplay>
-                                    <source src="logo_video.mp4" type="video/mp4">
-                                </video>
-            </div>
-        </div>
-        </div>
-        <h2>О Ресторане</h2>   
-        <div class="info_rest">
-        <h4>   Приветствуем на официальном сайте петербургского ресторана "Я люблю... La panorama"! Мы - самый высокий в центре города панорамный ресторан европейской кухни, расположенный на высоте 15 этажа в БЦ "Биржа" на Васильевском острове. К нам приезжают, чтобы насладиться потрясающим видом на исторический центр Петербурга, открывающимся из наших окон, и качественной вкусной едой по доступным ценам. Мы носим название "Я люблю", потому что атмосфера заведения наполнена романтикой - начиная от витых сердечек на тарелках, заканчивая волшебным видом на согретые солнечными лучами петербургские крыши. Мы рады и взрослым, и детям, парам на первом свидании и семьям, отмечающим годовщину совместной жизни. У нас играют свадьбы, делают предложения, отдыхают с друзьями и просто обедают. Ресторан "Я люблю" любит своих гостей и желает приятного полета на высоте 60 метров над землей!</h4>
-        </div>
-        <div class="second_content">
-            <h2>Блюда</h2>
-            <div class="second_container">
-                <div><img src="img-main/slick/1.JPG"></div>
-                <div><img src="img-main/slick/2.jpg"></div>
-                <div><img src="img-main/slick/3.jpg"></div>
-                <div><img src="img-main/slick/4.jpg"></div>
-            </div>
-            <div class="select_nav_container">
-                <ul class="nav_select">
-                <li id=sl_1></li>
-                <li id=sl_2></li>
-                <li id=sl_3></li>
-                <li id=sl_4></li>
-                </ul>
-            </div>
-            <div class="text_container"><p class="second_content_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p><p class="second_content_text_sell">390р</p>
-                
-                </div>
-        </div>
-        <div class="second_content">
-            <h2>Интерьер</h2>
-            <div class="second_container_1">
-                <div><img src="img-main/slick/11.jpg"></div>
-                <div><img src="img-main/slick/22.jpg"></div>
-                <div><img src="img-main/slick/33.jpg"></div>
-                <div><img src="img-main/slick/44.jpg"></div>
-            </div>
-            <div class="select_nav_container">
-                <ul class="nav_select">
-                <li id=sl_11></li>
-                <li id=sl_22></li>
-                <li id=sl_33></li>
-                <li id=sl_44></li>
-                </ul>
-            </div>
-            <div class="text_container"><p class="second_content_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-               
-                </div>
-               
-        </div>
-        <div class="yandexmaps" >
-			<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A3362a1069d16c5dd64418345670bd1ae7551a1daebf2309e9cb69f42d5976885&amp;width=100%25&amp;height=418&amp;lang=ru_RU&amp;scroll=true"></script>
-	
-        </div>  
-    <div class="footer">
-        <div class="overlayphoto"> 
-        </div>
-        <div class="sociallink1">
-                <a href="#"><div class="vk"></div></a>
-                <a href="#"><div class="youtube"></div></a>
-                <a href="#"><div  class="instagram"></div></a>
-                <a href="#"><div  class="facebook"></div></a>
-                <a href="otzivi.html#input_mess" id="notonly"><div  class="recall"></div></a>
-            </div>
-        
-             
-           <div class="logo_container_bottom"> 
-                 
-                <div class="logo_1_bottom"><img src="img-main/logo/logo-ilove.svg"></div>
-                <div class="logo_2_bottom"><img src="img-main/logo/heart-shape-outline_318-32549.svg"></div>
-                <div class="logo_3_bottom"><img src="img-main/logo/logo-lapanorama.svg"></div>
-            </div>
-        <div class="bottommore">
-             <a class="phone">+7-812-925-84-95<br></a>
-             <p>Часы работы</p>
-             <ul class="time_work">
-                 <li><p>Пн-Чт</p><p>c 10:00 до 0:00</p></li>
-                  <li><p>Пт</p><p>c 10:00 до 2:00</p></li>
-                 <li><p>Сб</p><p>c 12:00 до 2:00</p></li>
-                 <li><p>Вс</p><p>c 12:00 до 2:00</p></li>
-            </ul>
-            <p>По вопросам рекламы и сотрудничества: lapanoramapr@gmail.com</p>
-            </div>
-        
-      
+
+
     </div>
-    </body>
+</div>
+
+
+<nav>
+    <a class="phone1">
+        <div class="icon_call"></div>
+        +7-812-925-84-95<br></a>
+    <div class="logo_container">
+
+        <div class="logo_1"><img src="img-main/logo/logo-ilove.svg"></div>
+        <div class="logo_2"><img src="img-main/logo/heart-shape-outline_318-32549.svg"></div>
+        <div class="logo_3"><img src="img-main/logo/logo-lapanorama.svg"></div>
+    </div>
+    <div class="mobile_nav" id="mob_f">
+        <div class="mobile_logo" id="m_l">
+            <img src="img-main/logo/logo-ilove.svg">
+            <img src="img-main/logo/heart-shape-outline_318-32549.svg">
+            <img src="img-main/logo/logo-lapanorama.svg">
+        </div>
+        <a class="phone2">
+            <div class="icon_call"></div>
+            +7-812-925-84-95<br>
+        </a>
+        <div class="anchor">
+            <ul class="mob_list" id="lst">
+                <li><a class="menulink">Главная</a></li>
+                <li><a class="menulink">Акции</a></li>
+                <li><a class="menulink">Из нашего окна</a></li>
+                <li><a class="menulink">Меню</a></li>
+                <li>
+                    <div class="count_news"><p>1</p></div>
+                    <a class="menulink">Новости</a></li>
+                <li><a class="menulink">Отзывы</a></li>
+                <li><a class="menulink">Галерея</a></li>
+                <li><a class="menulink">3D Тур</a></li>
+                <li><a class="menulink">Контакты</a></li>
+            </ul>
+        </div>
+        <div class="list_open_button" id="r"></div>
+
+    </div>
+    <!-- Я пол часа пытался разобраться с твоим sticky--wrapper, убери у него инлайновую высоту!!! -->
+    <ul class="headnav">
+
+        <li class="logo_com" id="nav_l"><a class="logolink" href="index.html">
+
+            <div class="head_logo" id="imgall">
+                <div class="logo_1_nav"><img src="img-main/logo/logo-ilove.svg"></div>
+                <div class="logo_1_nav"><img src="img-main/logo/heart-shape-outline_318-32549.svg"></div>
+                <div class="logo_1_nav"><img src="img-main/logo/logo-lapanorama.svg"></div>
+            </div>
+        </a></li>
+        <!-- Не знаю как именно у тебя здесь используетсмя id, но id в документе может быть только один! -->
+        <li id="line"><a href="index.html" class=linkmenu>Главная</a>
+            <div class="line"></div>
+        </li>
+        <li id="line"><a href="aktsii.html" class=linkmenu>Акции</a>
+            <div class="line"></div>
+        </li>
+        <li id="line"><a href="window.html" class=linkmenu id="overtext">Из нашего окна</a>
+            <div class="line"></div>
+        </li>
+        <li class="button" id="line"><a href="menu.html" class="menulink">Меню</a>
+            <ul class="list">
+                <li><a href="#" class="menulink">Основное</a></li>
+                <li><a href="#" class="menulink">Банкетное</a></li>
+                <li><a href="#" class="menulink">Фуршетное</a></li>
+                <li><a href="#" class="menulink">Барное</a></li>
+            </ul>
+        </li>
+
+        <li id="line" class="cn">
+            <div class="count_news"><p>1</p></div>
+            <a href="news.html" class=linkmenu>Новости</a>
+            <div class="line"></div>
+            <div id="comment_bubble"><p class="comment_bubble_p">Уважаемые посетители!<br>
+                Предупреждаем вас что наш ресторан будет закрыт<br>
+                Дата время<br>Приносим извинения за временные неудобства</p></div>
+        </li>
+        <li id="line"><a href="otzivi.html" class=linkmenu>Отзывы</a>
+            <div class="line"></div>
+        </li>
+        <li id="line"><a href="gallery.html" class=linkmenu>Галерея</a>
+            <div class="line"></div>
+        </li>
+        <li id="line"><a href="3dtur.html" class=linkmenu>3D Тур</a>
+            <div class="line"></div>
+        </li>
+        <li id="line"><a href="kontaty.html" class=linkmenu>Контакты</a>
+            <div class="line"></div>
+        </li>
+    </ul>
+
+</nav>
+<div class="carousel">
+    <div class="videocontainerrest">
+        <div class="lay">
+            <video class="rest_video" muted loop autoplay>
+                <source src="logo_video.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+</div>
+<h2>О Ресторане</h2>
+<div class="info_rest">
+    <h4>   Приветствуем на официальном сайте петербургского ресторана "Я люблю... La panorama"! Мы - самый высокий в
+        центре города панорамный ресторан европейской кухни, расположенный на высоте 15 этажа в БЦ "Биржа" на
+        Васильевском острове. К нам приезжают, чтобы насладиться потрясающим видом на исторический центр Петербурга,
+        открывающимся из наших окон, и качественной вкусной едой по доступным ценам. Мы носим название "Я люблю", потому
+        что атмосфера заведения наполнена романтикой - начиная от витых сердечек на тарелках, заканчивая волшебным видом
+        на согретые солнечными лучами петербургские крыши. Мы рады и взрослым, и детям, парам на первом свидании и
+        семьям, отмечающим годовщину совместной жизни. У нас играют свадьбы, делают предложения, отдыхают с друзьями и
+        просто обедают. Ресторан "Я люблю" любит своих гостей и желает приятного полета на высоте 60 метров над
+        землей!</h4>
+</div>
+<div class="second_content">
+    <h2>Блюда</h2>
+    <div class="second_container">
+        <div><img src="img-main/slick/1.JPG"></div>
+        <div><img src="img-main/slick/2.jpg"></div>
+        <div><img src="img-main/slick/3.jpg"></div>
+        <div><img src="img-main/slick/4.jpg"></div>
+    </div>
+    <div class="select_nav_container">
+        <ul class="nav_select">
+            <li id=sl_1></li>
+            <li id=sl_2></li>
+            <li id=sl_3></li>
+            <li id=sl_4></li>
+        </ul>
+    </div>
+    <div class="text_container"><p class="second_content_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+        <p class="second_content_text_sell">390р</p>
+
+    </div>
+</div>
+<div class="second_content">
+    <h2>Интерьер</h2>
+    <div class="second_container_1">
+        <div><img src="img-main/slick/11.jpg"></div>
+        <div><img src="img-main/slick/22.jpg"></div>
+        <div><img src="img-main/slick/33.jpg"></div>
+        <div><img src="img-main/slick/44.jpg"></div>
+    </div>
+    <div class="select_nav_container">
+        <ul class="nav_select">
+            <li id=sl_11></li>
+            <li id=sl_22></li>
+            <li id=sl_33></li>
+            <li id=sl_44></li>
+        </ul>
+    </div>
+    <div class="text_container"><p class="second_content_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+
+    </div>
+
+</div>
+<div class="yandexmaps">
+    <script type="text/javascript" charset="utf-8" async
+            src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A3362a1069d16c5dd64418345670bd1ae7551a1daebf2309e9cb69f42d5976885&amp;width=100%25&amp;height=418&amp;lang=ru_RU&amp;scroll=true"></script>
+
+</div>
+<div class="footer">
+    <div class="overlayphoto">
+    </div>
+    <div class="sociallink1">
+        <a href="#">
+            <div class="vk"></div>
+        </a>
+        <a href="#">
+            <div class="youtube"></div>
+        </a>
+        <a href="#">
+            <div class="instagram"></div>
+        </a>
+        <a href="#">
+            <div class="facebook"></div>
+        </a>
+        <a href="otzivi.html#input_mess" id="notonly">
+            <div class="recall"></div>
+        </a>
+    </div>
+
+
+    <div class="logo_container_bottom">
+
+        <div class="logo_1_bottom"><img src="img-main/logo/logo-ilove.svg"></div>
+        <div class="logo_2_bottom"><img src="img-main/logo/heart-shape-outline_318-32549.svg"></div>
+        <div class="logo_3_bottom"><img src="img-main/logo/logo-lapanorama.svg"></div>
+    </div>
+    <div class="bottommore">
+        <a class="phone">+7-812-925-84-95<br></a>
+        <p class="time-work-header">Часы работы</p>
+        <ul class="time-work">
+            <li><p>Пн-Чт</p>
+                <p>c 10:00 до 0:00</p></li>
+            <li><p>Пт</p>
+                <p>c 10:00 до 2:00</p></li>
+            <li><p>Сб</p>
+                <p>c 12:00 до 2:00</p></li>
+            <li><p>Вс</p>
+                <p>c 12:00 до 2:00</p></li>
+        </ul>
+
+    </div>
+    <div class="copyright">
+        <p>По вопросам рекламы и сотрудничества: lapanoramapr@gmail.com</p>
+    </div>
+</div>
+
+</body>
 </html>
