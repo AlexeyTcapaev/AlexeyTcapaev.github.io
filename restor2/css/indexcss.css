@@ -51,6 +51,7 @@ nav {
     height: 5%;
     display: flex;
     justify-content: center;
+    margin-top: 1rem;
 }
 
 .nav_select {
@@ -83,13 +84,6 @@ nav {
     cursor: pointer;
 }
 
-.lay {
-    position: absolute;
-
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-}
 
 .rest_video {
     width: 100%;
@@ -532,7 +526,7 @@ h3 {
 }
 
 .carousel {
-    height: 19%;
+    min-height: 800px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -541,13 +535,14 @@ h3 {
 }
 
 .videocontainerrest {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 
     width: 100%;
     height: 100%;
+}
+.lay {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
 }
 
 p {
@@ -1055,7 +1050,7 @@ h6 {
 }
 
 .second_content .text_container {
-    margin: 10vh auto;
+    margin: 2rem auto;
 }
 
 .second_container {
