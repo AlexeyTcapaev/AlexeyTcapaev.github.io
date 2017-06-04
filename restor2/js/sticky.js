@@ -4,7 +4,7 @@ if(document.documentElement.clientWidth<=414)
 var menuPosition = menu.getBoundingClientRect();
 var placeholder = document.createElement('ul');
 placeholder.style.width = menuPosition.width + 'px';
-placeholder.style.height = menuPosition.height + 'px';
+// placeholder.style.height = menuPosition.height + 'px';
 var isAdded = false;
 
 window.addEventListener('scroll', function() {
@@ -29,7 +29,7 @@ var menu = document.querySelector('.headnav');
 var menuPosition = menu.getBoundingClientRect();
 var placeholder = document.createElement('ul');
 placeholder.style.width = menuPosition.width + 'px';
-placeholder.style.height = menuPosition.height + 'px';
+// placeholder.style.height = menuPosition.height + 'px';
 var isAdded = false;
 
 window.addEventListener('scroll', function() {
