@@ -1,82 +1,30 @@
-<html>
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	    <meta charset="utf-8">
-        <link rel="stylesheet" type="text/css" href="css/index.css">
-       <link rel="stylesheet" type="text/css" href="css/media/media-index.css">
-         <script
-  src="https://code.jquery.com/jquery-1.8.3.min.js"
-  integrity="sha256-YcbK69I5IXQftf/mYD8WY0/KmEDCv1asggHpJk1trM8="
-  crossorigin="anonymous"></script>
-          <script type="text/javascript" src="js/include.js"></script>
-    </head>
-    <body>
-        <header>
-            <nav>
-                <img src="img/logo.svg" class="logo"> 
-                <input placeholder="Начать поиск">
-                <div class="buttons"></div>
-            </nav>
-            <div class="top_auth_and_text">
-                <h1>Самый простой и быстрый поиск по бизнес пространству Санкт-Петербурга</h1>
-                <div class="auth">
-                    <div class="auth_top_selectors"><div><p>Войти с помощью</p></div><div><p>Регистрация</p></div></div>
-                    <div class="social">
-                        <img src="img/fb.svg">
-                        <img src="img/ln.svg">
-                        <img src="img/w.svg">
-                        <img src="img/box.svg">
-                    </div>
-                    <div class="input_block">
-                        <input placeholder="E-mail или телефон">
-                        <input placeholder="Пароль" type="password">
-                    </div>
-                    <div class="log_settings">
-                        <div class="input_remember">
-                            <input type="checkbox">
-                            <p>Запомнить</p>
-                        </div>
-                        <a href="#">Забыли пароль?</a>
-                    </div>
-                    <div class="access_button">
-                        <div><p>Войти</p></div>
-                    </div>
-                </div>
-            </div>
-        </header>
-        <div class="shortcast">
-            <h2>Коротко о проекте</h2>
-            <p>Вы сейчас находитесь в уникальном месте-бизнес пространстве,созданном для деловых людей.С помощью проекта Бизнес Акула можно находить нужную информацию,деловых партнёров и клиентов для бизнеса.Делиться своими достижениями и рекламировать собственное дело.<br>Бизнес Акула - это еще и рейтинг лучших компаний и предприятий России.Присоединяйтесь к акулам бизнеса!</p>
-        </div>
-        <div class="obj_bar">
-            <div class="top_info">
-                <h3>Только что присоеденились</h3>
-            </div>
-            <div class="carousel">
-                <div>
-                </div>
-                 <div>
-                </div>
-                 <div>
-                </div>
-                 <div>
-                </div>
-            </div>
-        </div>
-        <div class="obj_bar">
-            <div class="top_info">
-                <h3>Ваши желания</h3>
-            </div>
-            <div class="carousel">
-                <div>
-                </div>
-                 <div>
-                </div>
-                 <div>
-                </div>
-                 <div>
-                </div>
-            </div>
-        </div>
-    </body>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Бизнес Акула</title>
+
+    <link href="/css/head.css" rel="stylesheet" crossorigin="anonymous">
+    <link href="/css/index.css" rel="stylesheet" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <header class="nav">
+        <img class="logo" src="content/logo_white.svg" >
+        <form class="search-form" id="head_search_form">
+                <input class="search" placeholder="Поиск" id="s" />
+             <input type="submit" class="search_button" value="" id="s_b">
+        </form>
+    </header>
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+      <script src="/js/search.js"></script>
+</body>
+
 </html>
