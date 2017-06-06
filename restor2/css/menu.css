@@ -36,7 +36,7 @@ nav {
 }
 
 .target_li_text {
-    padding: 2%;
+    padding: 2% 0;
     text-align: left;
     font-size: 1.6em;
     font-family: 'Sunday-Regular';
@@ -102,6 +102,8 @@ nav {
     border-top: 2px solid black;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    padding: 0.5rem 0;
 }
 
 .centr_cont {
