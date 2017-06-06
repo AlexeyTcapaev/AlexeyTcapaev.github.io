@@ -52,7 +52,7 @@
 .cont_ot ul li {
     width: 30.5%;
     margin-left: 2%;
-    margin-bottom: 2%;
+    margin-bottom: 2rem;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -676,7 +676,7 @@ h5 {
     display: block;
     color: black;
     padding: 0.5em 0;
-    font-size: 1em;
+    font-size: 1.2em;
     transition: 0.5s ease-in-out;
 }
 
@@ -906,7 +906,8 @@ li:hover .line {
     justify-content: center;
     align-items: center;
     height: 85%;
-
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 .logo_container_bottom {
@@ -917,7 +918,9 @@ li:hover .line {
     height: 39%;
 
 }
-
+.sticky-wrapper{
+    height: auto!important;
+}
 .line {
     height: 3%;
     background-color: none;
