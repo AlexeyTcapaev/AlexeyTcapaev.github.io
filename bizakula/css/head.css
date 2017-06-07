@@ -52,7 +52,7 @@ header
     background-size: contain;
     border: none;
      outline: none;
-   
+    margin-left: 1%;
     width: 25px;
     height: 25px;
     cursor: pointer;
