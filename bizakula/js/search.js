@@ -25,7 +25,7 @@ $(document).ready(function(){
              }
        
     });
-    particlesJS.load('particles-js','/js/particles/particles.json',function(){
+    particlesJS.load('particles-js','/bizakula/js/particles/particles.json',function(){
         console.log('callback - particle-js')
     })
      
