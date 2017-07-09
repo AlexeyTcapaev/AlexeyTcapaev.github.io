@@ -206,8 +206,8 @@ h2
 .circle 
 {
   margin: 20px;
-  width: 200px;
-  height: 200px;
+  width: 15vw;
+  height: auto;
   position: relative;
 }
 .content2_1div
@@ -241,4 +241,56 @@ h4
     height: 2vh;
     text-align: center;
     font-size: 1.3vw;
+}
+.content3
+{
+    margin-top: 5%;
+    width: 100%;
+}
+.main_ul
+{
+    list-style-type: none;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.main_ul li img
+{
+    height: 50vh;
+}
+.main_ul li
+{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5%;
+}
+h5
+{
+    margin-top: 5%;
+    font-size: 1.5vw;
+    text-align: center;
+    margin-bottom:5%;
+}
+.name
+{
+    color: white;
+}
+footer
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: black;
+    width: 100%;
+}
+footer p
+{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    width: 35%;
+    margin-left: 40%;
+    color: white;
+    font-size: 1vw;
 }
